@@ -1,12 +1,41 @@
 <!DOCTYPE html>
-　　<html>
-    　　<head>
-        　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        　　　　<title>{{ page.title }}</title>
-        　　</head>
-    　　<body>
+<html>
 
-        　　　　{{ content }}
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Anakinsun's Blog : My git blog" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Anakinsun's Blog</title>
+  </head>
+    　　<body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+        <!--          <a id="forkme_banner" href="https://github.com/anakin/blog">View on GitHub</a>-->
+
+          <h1 id="project_title">Anakinsun's Blog</h1>
+          <h2 id="project_tagline">My git blog</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+        {{ content }}
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Anakinsun's Blog maintained by <a href="https://github.com/anakin">anakin</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+
 
         　　</body>
     　　</html>
