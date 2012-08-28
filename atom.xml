@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[奔向NB的生活]]></title>
+  <link href="http://anakin.github.com/atom.xml" rel="self"/>
+  <link href="http://anakin.github.com/"/>
+  <updated>2012-08-28T15:21:49+08:00</updated>
+  <id>http://anakin.github.com/</id>
+  <author>
+    <name><![CDATA[Anakin Sun]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
