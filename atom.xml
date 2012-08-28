@@ -4,7 +4,7 @@
   <title><![CDATA[奔向NB的生活]]></title>
   <link href="http://anakin.github.com/atom.xml" rel="self"/>
   <link href="http://anakin.github.com/"/>
-  <updated>2012-08-28T15:21:49+08:00</updated>
+  <updated>2012-08-28T15:35:54+08:00</updated>
   <id>http://anakin.github.com/</id>
   <author>
     <name><![CDATA[Anakin Sun]]></name>
@@ -12,5 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://anakin.github.com/blog/2012/08/27/hello-world/"/>
+    <updated>2012-08-27T16:35:00+08:00</updated>
+    <id>http://anakin.github.com/blog/2012/08/27/hello-world</id>
+    <content type="html"><![CDATA[<p>生活在一个云的时代的好处，就是你坐在家里抱着一台笔记本，连上网线，就可以做几乎所有的事儿了。<br/>
+可能生活在天朝的我们这种感觉还不是那么的强烈，想象一下那些生活在天朝之外的同学们是如何生活和工作的，只要你有一个idea，找几个志同道合的基友，购买一个AWS的服务，使用google的各种接口就可以开始实现你的想法了，每个人都做自己最擅长的事情，这本来就是社会应该进化成的样子，不是么。<br/>
+如今世界上有几个可以称之为伟大的公司，google，Apple，Amazon，当然还有现在你正在访问的github。这样牛逼闪闪的公司除了伟大，真的找不到其他合适的词来形容。<br/>
+感谢你们。</p>
+]]></content>
+  </entry>
   
 </feed>

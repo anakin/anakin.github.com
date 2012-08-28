@@ -9,7 +9,8 @@
   <meta name="author" content="Anakin Sun">
 
   
-  <meta name="description" content=" Blog Archives Recent Posts ">
+  <meta name="description" content="生活在一个云的时代的好处，就是你坐在家里抱着一台笔记本，连上网线，就可以做几乎所有的事儿了。
+可能生活在天朝的我们这种感觉还不是那么的强烈，想象一下那些生活在天朝之外的同学们是如何生活和工作的，只要你有一个idea，找几个志同道合的基友，购买一个AWS的服务， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -65,6 +66,45 @@
       <div class="blog-index">
   
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/08/27/hello-world/">Hello World</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-27T16:35:00+08:00" pubdate data-updated="true">Aug 27<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>生活在一个云的时代的好处，就是你坐在家里抱着一台笔记本，连上网线，就可以做几乎所有的事儿了。<br/>
+可能生活在天朝的我们这种感觉还不是那么的强烈，想象一下那些生活在天朝之外的同学们是如何生活和工作的，只要你有一个idea，找几个志同道合的基友，购买一个AWS的服务，使用google的各种接口就可以开始实现你的想法了，每个人都做自己最擅长的事情，这本来就是社会应该进化成的样子，不是么。<br/>
+如今世界上有几个可以称之为伟大的公司，google，Apple，Amazon，当然还有现在你正在访问的github。这样牛逼闪闪的公司除了伟大，真的找不到其他合适的词来形容。<br/>
+感谢你们。</p>
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
@@ -77,11 +117,53 @@
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
+      <li class="post">
+        <a href="/blog/2012/08/27/hello-world/">Hello World</a>
+      </li>
+    
   </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/anakinsun@gmail.com">@anakinsun@gmail.com</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'anakinsun@gmail.com',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 
 
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/anakinsun@gmail.com?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
 
 
 
