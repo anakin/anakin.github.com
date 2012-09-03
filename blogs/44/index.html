@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>iPhone OS概览[翻译] - 奔向NB的生活</title>
+  <meta name="author" content="Anakin Sun">
+
+  
+  <meta name="description" content="iPhone OS 包含了处理系统和在iPhone和iPod touch上运行应用的技术。虽然它共用Mac OS X的很多常用功能和底层技术，但是iPhone OS被设计用来适应移动电话环境下的需求，用户的需求稍有不同。曾经的Mac OS X的开发者们会发现很多熟悉的技术， &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://anakin.github.com/blogs/44">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="奔向NB的生活" type="application/atom+xml">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <div id="logo">
+  	<div id="logoLeft">{</div>
+  	<div id="logoText">as</div>
+  	<div id="logoRight">}</div>
+  	<div class="clear"></div>
+  </div>
+  <h1><a href="/">奔向NB的生活</a></h1>
+  
+    <h2>Follow my heart</h2>
+  
+  <div class="clear"></div>
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:anakin.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      
+        <h1 class="entry-title">iPhone OS概览[翻译]</h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-10-12T00:00:00+08:00" pubdate data-updated="true">Oct 12<span>th</span>, 2008</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>iPhone OS 包含了处理系统和在iPhone和iPod touch上运行应用的技术。虽然它共用Mac OS X的很多常用功能和底层技术，但是iPhone OS被设计用来适应移动电话环境下的需求，用户的需求稍有不同。曾经的Mac OS X的开发者们会发现很多熟悉的技术，但是他们也会发现iPhone OS上独有的技术，例如多点触控的接口和重力感应支持。<br />
+<img src="http://devimages.apple.com/iphone/gettingstarted/docs/images/overview_iphonetouch.jpg" alt="iPhone" /><br />
+iPhone SDK包含了你开发，测试，运行，调试和在iPhone OS上调整应用程序所需的代码，信息以及工具。Xcode工具已经更新为支持iPhone OS的开发。除了为你的代码提供基本的编辑，编译和调试环境，Xcode还提供了用来在一台iPhone或者iPod设备上测试你的程序的发布点。Xcode同时允许你在iPhone模拟器上运行程序，那是在你的Macintosh电脑上的一个包含了基本的iPhone OS环境的平台。<br />
+本文是iPhone OS的基础特性的一个概述，帮助你了解这个平台。在iPhone Dev Center上你可以找到其他的文章，帮助你迅速提高，帮助你理解建立iPhone应用程序的基本过程。你可以通过这些文章来帮助你对iPhone OS的学习。</p>
+<p><strong>iPhone OS Technology Layers</strong></p>
+<p><img src="http://devimages.apple.com/iphone/gettingstarted/docs/images/overview_systemlayers.jpg" alt="layers" /><br />
+在iPhone OS内部，底层的系统架构和很多技术和Mac OS X类似。iPhone OS的核心基于大部分Mac OS X通用的基础Mach核心。这个核心智商的是用来执行平台程序的服务层。<br />
+当这一层用来运行你的代码的时候提供给你很多选择。例如，Core OS和Core Services层包含了基本的iPhone OS接口，包括用来处理分拣，基本数据类型，Bonjour服务，网络套接字等。这些接口基本都是C-based的，包括了例如Core Foundation,CFNetwork,SQLite,以及获取POSIX线程以及UNIX套接字等技术。<br />
+进入更高的层，你会发现使用混合了C-based和基于Objective-C接口的高级技术。例如，Media层包含了支持2D和3D绘画，音频和视频的基本技术。这一层包括C-based技术OpenGL ES，Quartz和Core Audio。也同事包括了Core Animation，它是高级的基于Objective-C的动画引擎。<br />
+在Cocoa Touch层，大部分技术使用Objective-C。这个框架提供了供你的程序使用的基础框架。例如，Foundation框架提供了对collections，文件管理，网络操作等等的面向对象支持。UIKit框架为你的程序提供了虚拟架构，包括对窗口，视图，控制，以及管理这些对象的控制器的类。这一层的其他框架提供了获取用户的联系和照片信息和重力感应信息以及设备的其他硬件特性的能力。<br />
+任何新项目的起点都是Cocoa Touch层，个别的是UIKit框架。当决定是用什么附加技术的时候，推荐你从高层的框架开始，只有需要的时候才回到底层框架。高层的框架使支持标准的系统行为变得简单而且让你更容易办到。唯一需要回到底层框架的时候是你需要运行定制的行为在高层中没有提供。<br />
+有关iPhone OS技术的更详细的概述，请查看<a href="http://developer.apple.com/iphone/library/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/index.html">iPhone OS Programming Guide</a>.</p>
+<p><strong>为iPhone OS写代码</strong></p>
+<p>iPhone SDK支持建立运行在iPhone OS上的面向图形的应用程序。你建立的程序放置在用户的主屏幕上，和其他的系统应用放在一起，例如照片，天气以及时钟。当它开始运行的时候，调用核心和一些底层的守护进程，你的程序就是系统上运行的唯一程序。运行的时候，你的程序占据整个屏幕并且是用户注意力的焦点。当用户按下Home键，你的程序退出并且系统再次显示主屏幕。拥有系统对你自己来说是有利的，因为它使你可以获取底层的系统资源。你可以利用内置硬件例如重力感应器，相机以及图形硬件来仅仅运行你的代码。<br />
+由于用户同iPhone以及iPod touch设备交互的方式与用户同Mac OS X交互的方式根本不同，你设计你的程序的方式也必须不一样。在iPhone程序中，没有单独的文档窗口用来显示内容。取而代之的是，所有的程序数据都显示在同一个窗口里。这导致了允许你用有以有序的方式展示你的程序数据的视图和控制的产生。另外，很多标准的视图和控制都和在Mac OS X里有所不同。大部分改变都可以视而不见，但是其中的一些也需要你重新考虑你组织和展示数据的方式。<br />
+iPhone OS中的时间处理模型也提供了比传统桌面应用更有意义的变化。代替传统的鼠标和键盘事件，iPhone OS采用了触控事件的主意。触控事件可以发生在任何时间并且可以和一个或多个触控事件组合产生。触控可以用来侦测与内容的简单交互，例如选择或拖拽项目，也可以用来侦测复杂的手势和交互动作，例如猛击或者pinch-open和pinch-close手势（用来，例如，在图片程序中用来放大或者缩小)。<br />
+除了考虑你的程序的基本结构，你还要考虑用户实际上是怎么使用的。iPhone应用程序可以随时在用户需要的时候被清除或者成为焦点。记住用户急于迅速了解信息而不愿意多花时间在多层屏幕中挖掘。提供简单的布局而且子用户需要的时候高亮显示关键信息很重要。对于游戏和其他娱乐应用，你也要考虑用户可能怎样和你的应用进行交互并且在适当的地方利用像重力感应器和相机。<br />
+当你开始开发的时候，初始化用的框架是Foundation和UIKit框架。这些框架提供了所有iPhone应用的关键服务。改进你的应用的时候，你应该研究一下看看系统里的其他框架都提供了那些服务。</p>
+<p><strong>从哪里开始</strong></p>
+<p>使用Xcode提供的内建项目模板很容易建立运行在iPhone OS上的简单应用，但是建立有用并且很好看的应用需要你都花些时间来阅读文档。至少，你应该花时间阅读iPhone Dev Center上的其他相关文章，这些文章探究了建立应用的工具和过程。<br />
+如果你对iPhone OS和Mac OS X来说完全是是新手，花时间理解iPhone OS的基本的设计模式和会话对为平台写代码来说是非常困难的。应用程序利用了框架提供的力量就会在iPhone OS上运转的更好。如果你花时间围绕基础的框架行为工作，你会发现建立应用程序比简单的学习使用的基本设计模式困难的多。每个iPhone开发者需要了解的基本信息是Cocoa Fundamentals Guide.这篇文档包含了Objective-C语言和程序会话以及UIKit和许多其他系统框架使用的设计模式的基础。<br />
+当你了解了你用来建立iPhone应用程序的基本会话你可以去看iPhone OS Programming Guide来了解开发过程的特定细节。这本书提供了关键的概念和怎样编写iPhone应用的基于任务的信息，包括如何显示用户界面，处理事件和利用iPhone OS关键特性。它也描述了大体的开发过程并如何使用Xcode来运行你的程序。<br />
+除了iPhone OS Programming Guide，你也应该查看可用的实例代码。iPhone OS提供了很多有全部特性的实例如何利用可用的技术来建立真实的程序。你也可以使用这些例子作为你自己程序的一个起点或者你可以通过他们学习如何使用特性。</p>
+<p>原文地址：http://developer.apple.com/iphone/gettingstarted/docs/iphoneosoverview.action</p></div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Anakin Sun</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-10-12T00:00:00+08:00" pubdate data-updated="true">Oct 12<span>th</span>, 2008</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left articlenav" href="/blogs/38" title="Previous Post: 买了张久石让的encore">&laquo; 买了张久石让的encore</a>
+      
+      
+        <a class="basic-alignment right articlenav" href="/blogs/47" title="Next Post: 苹果新款笔记本发布">苹果新款笔记本发布 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>About</h1>
+  <p>I'm a PHPer @Beijing.</p><p>My favourite is taking photo & badminton.</p><p>My photo: <a href='http://500px.com/anakin'>http://500px.com/anakin</a></p>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/09/03/wunianzhen/">吴念真的《这些人，那些事》</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/09/02/autumn/">秋天</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/08/29/snail/">蜗牛</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/08/28/how-to-use-octopress/">部署一个octopress+git的blog</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/08/27/hello-world/">Hello World</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/anakin">@anakin</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'anakin',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/anakinsun@gmail.com?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Anakin Sun -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'anakin';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://anakin.github.com/blogs/44';
+        var disqus_url = 'http://anakin.github.com/blogs/44';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
