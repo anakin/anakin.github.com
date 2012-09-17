@@ -9,9 +9,8 @@
   <meta name="author" content="Anakin Sun">
 
   
-  <meta name="description" content="说实话，现在过年挺没劲的，尤其对于不能回老家还要从初一开始加班的我来说。
-大年三十那一天，吃饺子放鞭炮看春晚，这一系列活动之后，基本上年就算过完了。
-不知道是我们的欣赏水平提高了还是春晚的水平越来越差，如今对春晚的骂声是越来越大。广大不明真相的人民群众不是等着看春晚，而是等着看春晚的热闹。 &hellip;">
+  <meta name="description" content="最近尝试了使用git来合并svn管理的代码，相比svn本身令人望而生畏的恐怖的merge，git的合并过程是灰常可以让人接受和忍耐的。
+可能有的童鞋在win平台上使用svn的client进行可视化的merge操作也没多痛苦，但我是在mac下开发的，以前merge都是命令行下操作的， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +73,79 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/blogs/253">使用git合并svn代码</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-03-02T00:00:00+08:00" pubdate data-updated="true">Mar 2<span>nd</span>, 2010</time>
+        
+         | <a href="/blogs/253#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://static1.139js.com/system/picture/10361442/600x600/IMG_6296.jpg" alt="乌鸦飞" /><br />
+最近尝试了使用git来合并svn管理的代码，相比svn本身令人望而生畏的恐怖的merge，git的合并过程是灰常可以让人接受和忍耐的。<br />
+可能有的童鞋在win平台上使用svn的client进行可视化的merge操作也没多痛苦，但我是在mac下开发的，以前merge都是命令行下操作的，其可悲程度可想而知。尝试使用git之后，清爽许多。<br />
+大概的过程是这样的，假设在svn中有trunk和dev分支。<br />
+首先获得建立dev分支时的版本号：<br />
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>svn log --stop-on-copy svn-path-to-dev</span></code></pre></td></tr></table></div></figure></div></notextile><br />
+然后从该版本号开始clone代码到git中（假设版本号为30）：<br />
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git svn clone -s -r30:HEAD svn-path-to-trunk</span></code></pre></td></tr></table></div></figure></div></notextile><br />
+其实你也可以从更晚的版本开始clone，但是这样git就不知道你之前都对这个分支做了哪些改动，merge的时候git会很迷惑，会导致更多代码需要你手动进行处理。<br />
+接下来进入该目录，例如proj<br />
+<strong><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>cd proj</span></code></pre></td></tr></table></div></figure></div></notextile></strong><br />
+查看分支情况：<br />
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git branch -a</span></code></pre></td></tr></table></div></figure></div></notextile><br />
+你会看到有remotes/dev，这是一个远程的分支，需要创建成本地的：<br />
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git branch dev remotes/dev</span></code></pre></td></tr></table></div></figure></div></notextile><br />
+接下来你就可以进行merge操作了，首先要确认你merge的方向，是从dev合并到trunk，还是从trunk合并到dev，操作方法基本差不多，我们以从dev合并到trunk为例<br />
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git merge  --squash dev</span></code></pre></td></tr></table></div></figure></div></notextile><br />
+这里要注意使用&#8212;squash参数，只merge代码，而不提交，不然会有灵异现象发生。如果有冲突，你会看到提示信息，然后使用mergetool来手动处理冲突文件（mergetool可以在git配置文件中设置，我喜欢使用vimdiff）：<br />
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git mergetool</span></code></pre></td></tr></table></div></figure></div></notextile><br />
+全部冲突文件都处理完成之后，先提交代码到git的trunk：<br />
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git ci</span></code></pre></td></tr></table></div></figure></div></notextile><br />
+然后再把结果提交到svn中：<br />
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git svn dcommit</span></code></pre></td></tr></table></div></figure></div></notextile><br />
+提交之前你也可以使用-n参数进行dry run。<br />
+提交成功，基本上整个过程就结束了。<br />
+有写的不对的地方欢迎指出，按照本文过程搞出什么飞机的自己负全部责任，谢谢。</p></div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -544,52 +616,6 @@ svn merge的help如下：<br />
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/blogs/229">二〇〇九</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2009-12-31T00:00:00+08:00" pubdate data-updated="true">Dec 31<span>st</span>, 2009</time>
-        
-         | <a href="/blogs/229#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><div style="text-align: left; padding: 3px;">
-<p><a href="http://www.flickr.com/photos/anakinsun/4230907322/" title="photo sharing"><img src="http://farm3.static.flickr.com/2561/4230907322_1cb1c02e6b.jpg" style="border:6px solid #4C493D;padding:4px;" alt="" /></a><br />
-<br />
-<span style="font-size: 0.8em; margin-top: 0px;"><a href="http://www.flickr.com/photos/anakinsun/4230907322/">球</a>, originally uploaded by <a href="http://www.flickr.com/people/anakinsun/">anakin_sun</a>.</span></p>
-</div>
-<p>
-<p>二〇〇九就要过去了，我很怀念它。</p>
-</p></div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/8/">&larr; Older</a>
@@ -611,6 +637,10 @@ svn merge的help如下：<br />
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/09/15/something/">头发长了很难过</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/09/03/wunianzhen/">吴念真的《这些人，那些事》</a>
       </li>
     
@@ -624,10 +654,6 @@ svn merge的help如下：<br />
     
       <li class="post">
         <a href="/blog/2012/08/28/how-to-use-octopress/">部署一个octopress+git的blog</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/08/27/hello-world/">Hello World</a>
       </li>
     
   </ul>

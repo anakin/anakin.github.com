@@ -9,7 +9,8 @@
   <meta name="author" content="Anakin Sun">
 
   
-  <meta name="description" content="今儿是清明小长假第二天，开车跑到植物园溜达了一个下午，天热，人多，车多，花儿们还处在要开没开羞羞答答的阶段，满大街都是单反和摆着各种pose的女人们，植物园离城里比较近，门票便宜，里面景色也还可以，想不火爆都不行。所以想找个清净的地方呆着的同学就不用考虑这里了，想看人的不要错过。 &hellip;">
+  <meta name="description" content="之前看了这篇文章（从自我介绍可以看出，博主是个胖子。），我看了之后深以为然。后来据胖子说有很多人表示不爽，于是有了后来的这篇文章，呵呵，看完我想声援一下该胖子。虽然我的blog也没人看，不过这不重要。
+我自己就是在mac下编程的，因此我灰常理解胖子对mac在编程方面的种种优势的推崇。。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -72,6 +73,49 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/blogs/290">声援一下一个不认识的胖子</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-04-05T00:00:00+08:00" pubdate data-updated="true">Apr 5<span>th</span>, 2010</time>
+        
+         | <a href="/blogs/290#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://static1.139js.com/system/picture/10819732/600x600/IMG_7671_m.jpg" alt="road" /></p>
+<p>之前看了<a href="http://tiny4.org/blog/2010/02/why-programmers-should-use-mac-os-x/">这篇文章</a>（从自我介绍可以看出，博主是个胖子。），我看了之后深以为然。后来据胖子说有很多人表示不爽，于是有了后来的<a href="http://tiny4.org/blog/2010/04/how-you-life-spend-depends-you-selection/">这篇文章</a>，呵呵，看完我想声援一下该胖子。虽然我的blog也没人看，不过这不重要。<br />
+我自己就是在mac下编程的，因此我灰常理解胖子对mac在编程方面的种种优势的推崇。。有些东西只有你亲身去体验过，才知道是否确实，盲目否定则完全没有说服力。我自从使用mac之后，觉得其他操作系统都是垃圾，就是这样。其实，这些都是工具而已，工具只有是否适合于你要完成的工作，没有绝对的优劣之分。在不同的情况下，选择不同的适合的高效的工具才是王道。或者，个人有个人的爱好而已。胖子只是建议大家选择他认为牛x的工具而已，并没有强迫或者鄙视没有使用mac的各位大侠，so，大家不用这么激动吧？后来更是扯到了mac如何昂贵上。。。。<br />
+其实现在一台普通的macbook和一台普通的其他品牌的笔记本价格上差别真的不大。除非你非得去买一个垃圾品牌的垃圾产品。你要买一台HP么？<br />
+我要说，胖子的态度太温和了。你的人生会怎样，就是你自己的选择，不是基本上，根本就是。</p></div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -492,79 +536,6 @@ bye,google.<br />
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/blogs/253">使用git合并svn代码</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-03-02T00:00:00+08:00" pubdate data-updated="true">Mar 2<span>nd</span>, 2010</time>
-        
-         | <a href="/blogs/253#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="http://static1.139js.com/system/picture/10361442/600x600/IMG_6296.jpg" alt="乌鸦飞" /><br />
-最近尝试了使用git来合并svn管理的代码，相比svn本身令人望而生畏的恐怖的merge，git的合并过程是灰常可以让人接受和忍耐的。<br />
-可能有的童鞋在win平台上使用svn的client进行可视化的merge操作也没多痛苦，但我是在mac下开发的，以前merge都是命令行下操作的，其可悲程度可想而知。尝试使用git之后，清爽许多。<br />
-大概的过程是这样的，假设在svn中有trunk和dev分支。<br />
-首先获得建立dev分支时的版本号：<br />
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>svn log --stop-on-copy svn-path-to-dev</span></code></pre></td></tr></table></div></figure></div></notextile><br />
-然后从该版本号开始clone代码到git中（假设版本号为30）：<br />
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>git svn clone -s -r30:HEAD svn-path-to-trunk</span></code></pre></td></tr></table></div></figure></div></notextile><br />
-其实你也可以从更晚的版本开始clone，但是这样git就不知道你之前都对这个分支做了哪些改动，merge的时候git会很迷惑，会导致更多代码需要你手动进行处理。<br />
-接下来进入该目录，例如proj<br />
-<strong><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>cd proj</span></code></pre></td></tr></table></div></figure></div></notextile></strong><br />
-查看分支情况：<br />
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>git branch -a</span></code></pre></td></tr></table></div></figure></div></notextile><br />
-你会看到有remotes/dev，这是一个远程的分支，需要创建成本地的：<br />
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>git branch dev remotes/dev</span></code></pre></td></tr></table></div></figure></div></notextile><br />
-接下来你就可以进行merge操作了，首先要确认你merge的方向，是从dev合并到trunk，还是从trunk合并到dev，操作方法基本差不多，我们以从dev合并到trunk为例<br />
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>git merge  --squash dev</span></code></pre></td></tr></table></div></figure></div></notextile><br />
-这里要注意使用&#8212;squash参数，只merge代码，而不提交，不然会有灵异现象发生。如果有冲突，你会看到提示信息，然后使用mergetool来手动处理冲突文件（mergetool可以在git配置文件中设置，我喜欢使用vimdiff）：<br />
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>git mergetool</span></code></pre></td></tr></table></div></figure></div></notextile><br />
-全部冲突文件都处理完成之后，先提交代码到git的trunk：<br />
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>git ci</span></code></pre></td></tr></table></div></figure></div></notextile><br />
-然后再把结果提交到svn中：<br />
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>git svn dcommit</span></code></pre></td></tr></table></div></figure></div></notextile><br />
-提交之前你也可以使用-n参数进行dry run。<br />
-提交成功，基本上整个过程就结束了。<br />
-有写的不对的地方欢迎指出，按照本文过程搞出什么飞机的自己负全部责任，谢谢。</p></div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/7/">&larr; Older</a>
@@ -586,6 +557,10 @@ bye,google.<br />
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/09/15/something/">头发长了很难过</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/09/03/wunianzhen/">吴念真的《这些人，那些事》</a>
       </li>
     
@@ -599,10 +574,6 @@ bye,google.<br />
     
       <li class="post">
         <a href="/blog/2012/08/28/how-to-use-octopress/">部署一个octopress+git的blog</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/08/27/hello-world/">Hello World</a>
       </li>
     
   </ul>
