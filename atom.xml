@@ -4,7 +4,7 @@
   <title><![CDATA[奔向NB的生活]]></title>
   <link href="http://anakin.github.com/atom.xml" rel="self"/>
   <link href="http://anakin.github.com/"/>
-  <updated>2012-09-20T15:23:51+08:00</updated>
+  <updated>2012-09-25T20:17:44+08:00</updated>
   <id>http://anakin.github.com/</id>
   <author>
     <name><![CDATA[Anakin Sun]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[douban]]></title>
+    <link href="http://anakin.github.com/blog/2012/09/25/douban/"/>
+    <updated>2012-09-25T20:17:00+08:00</updated>
+    <id>http://anakin.github.com/blog/2012/09/25/douban</id>
+    <content type="html"><![CDATA[<p>doubanclaimaa8b773e0993bef9</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[皆存于心]]></title>
@@ -344,18 +353,6 @@ Finally，我终于可以喝着茶听着音乐拿起书来读了。这样的日�
 打工还是创业也没有那么大的区别，也只是不同的生活方式而已。一切的关键都在于自己的选择。我从来就不喜欢看别人把自己创业的事描绘的如何如何惨烈，如同十八层地狱里走了一趟，窃以为又没人逼着你去走这一趟，而且我小心眼儿的以为，他们是因为怕更多的人走上这条路抢了他们的饭碗。回报和风险总是成正比，不要总是只强调某一个方面。<br />
 说到风险，风险这玩意儿应该是无处不在吧，在一个大公司里安稳的上班和在一个小公司里没日没夜的忙碌，我不觉得这两者在风险上有多大的差别。其实最难的事情就是开始，最大的风险就是自己不努力。<br />
 我喜欢的，是投入的感觉。</p>]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[老同事聚会]]></title>
-    <link href="http://anakin.github.com/blogs/415"/>
-    <updated>2010-12-02T00:00:00+08:00</updated>
-    <id>http://anakin.github.com/blogs/415</id>
-    <content type="html"><![CDATA[<p><a href="http://www.eyou.com">eyou</a>已经是第十一个年头了，虽然离开这么久， 回想起来还是各种感情涌上来以致五味杂陈。</p>
-<p>感情其实都是对人的。在这个公司的几年时间注定成为生命中不可或缺的一部分，现在回头去看，有些真实而有些很虚幻。</p>
-<p>公司的老同事们基本上每年都会组织一次聚会，我还是第一次参加，见到了传说中的各位大侠，一向如雷贯耳，果然闻名不如见面。随便说点儿技术上的事都让我自惭形秽羞愧不已自叹不如。</p>
-<p>大家在轻松友好其乐融融的气氛中用餐并探讨了很多技术问题以及业内趋势，你知道，一帮做技术的在一起聊天，其中的乐趣只有我们自己知道，呵呵。</p>
-<p><img src="http://static1.139js.com/system/picture/12374455/600x600/IMG_91951.jpg" alt="合影" /></p>]]></content>
   </entry>
   
 </feed>
