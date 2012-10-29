@@ -9,8 +9,9 @@
   <meta name="author" content="Anakin Sun">
 
   
-  <meta name="description" content="命苦不能怪政府。政府正开会研究这事呢。政府组织了n个代表我等小老百姓的代表在友好的氛围中积极讨论国计民生以及关闭网吧的相关事宜，代表们也积极履行自己的义务，代表我们来回走长安街，让我们上下班无路可走。
-瞄了一眼电视里出来的那些代表，分为明星和干部两类， &hellip;">
+  <meta name="description" content="我喜欢在blog里放张照片，这样导致文字看起来不会干巴巴的难受。但这个实现起来很麻烦，麻烦在我该把图片放在哪儿。
+最开始的时候，我都是直接放在blog所在的server上，因为我有权限，不嫌麻烦，可以copy上去，可这不是长久之计。
+后来我发现了flickr，简单，方便， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -73,6 +74,53 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/blogs/261">怎么办</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-03-09T00:00:00+08:00" pubdate data-updated="true">Mar 9<span>th</span>, 2010</time>
+        
+         | <a href="/blogs/261#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://static1.139js.com/system/picture/10509399/600x600/IMG_6496.jpg" alt="都是木头" /><br />
+我喜欢在blog里放张照片，这样导致文字看起来不会干巴巴的难受。但这个实现起来很麻烦，麻烦在我该把图片放在哪儿。<br />
+最开始的时候，我都是直接放在blog所在的server上，因为我有权限，不嫌麻烦，可以copy上去，可这不是长久之计。<br />
+后来我发现了flickr，简单，方便，于是我就把图片放在flickr上，还付费变成pro用户。可是后来flickr被墙了。为了不浪费我付的钱，我现在依然会把图片传到flickr，然后翻墙过去看，变态是变态了点儿。不过想想，传上去还可以给老外看呢，呵呵。<br />
+再后来我用picasa，google出品，后来picasa也被墙了。<br />
+怎么办，眼看国外的图片服务站出现一个墙一个，没法活了。国内的。。。。。。就更加的不靠谱，想想还是算了。<br />
+谁知道怎么办？哪儿能放点儿照片呢。</p>
+<p>其实，我很冤枉。我从来没有在flickr上传过一张淫秽的黄色的自拍的偷拍的图片，或者对国家党军队不利的图片，我也从来没有在twitter上说任何人的坏话，或者破坏社会安定团结影响社会主义和谐的话，我真不是那样的坏人。现在为了对付那些坏人，一枪把所有人都毙了。冤枉啊。<br />
+有一天我千辛万苦想翻墙出去，我翻啊翻啊翻的，当我真的翻出去之后，当时就懵了，不知道翻出来干啥了。后来仔细想了想，其实乐趣就在翻墙这事儿本身，而不在翻出去的目的。</p></div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -531,86 +579,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/blogs/231">Svn Merge使用方法</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-01-05T00:00:00+08:00" pubdate data-updated="true">Jan 5<span>th</span>, 2010</time>
-        
-         | <a href="/blogs/231#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><div style="text-align: left; padding: 3px;">
-<p><a href="http://www.flickr.com/photos/anakinsun/4239123993/" title="photo sharing"><img src="http://farm3.static.flickr.com/2741/4239123993_4baa2d55a1.jpg" style="border:6px solid #4C493D;padding:4px;" alt="" /></a><br />
-<br />
-<span style="font-size: 0.8em; margin-top: 0px;"><a href="http://www.flickr.com/photos/anakinsun/4239123993/">黑子</a>, originally uploaded by <a href="http://www.flickr.com/people/anakinsun/">anakin_sun</a>.</span></p>
-</div>
-<p>
-<p>这是一只纯黑的黑猫，叫黑子。<br />
-svn是继cvs之后如今比较流行的版本管理工具，再后面比较流行的是git，号称分布式。对于版本管理来说我觉得除了基本的check out和check in以及update，考量工具好坏的就是分支和合并功能，俗称branch和merge。<br />
-目前为止，我已然觉得分支多了是噩梦，没事千万别弄太多分支出来折磨自己。<br />
-记录一下svn的分支和合并操作，备查。<br />
-<b>建立一个分支：</b><br />
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>svn cp url_to_trunk url_to_branches/branches_name</span></code></pre></td></tr></table></div></figure></div></notextile><br />
-注意这里要记住当前的版本号，以后merge的时候用，重要。<br />
-<b>合并到trunk：</b><br />
-首先进入trunk的work copy，<br />
-执行：<br />
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>svn merge branches_name@version branches_name .</span></code></pre></td></tr></table></div></figure></div></notextile><br />
-version就是create branches时的版本号。<br />
-merge之后，svn st即可看到之后的情景，有冲突的解决冲突，然后提交就ok。<br />
-<br />
-可以使用 &#8212;dry-run参数来模拟执行merge的过程。<br />
-<br />
-svn merge的help如下：<br />
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>&lt;br />
-</span><span class='line'>&lt;br />
-</span><span class='line'>&lt;br />
-</span><span class='line'># svn merge --help&lt;br />
-</span><span class='line'>merge: Apply the differences between two sources to a working copy path.&lt;br />
-</span><span class='line'>usage: 1. merge sourceURL1[@N] sourceURL2[@M] [WCPATH]&lt;br />
-</span><span class='line'>       2. merge sourceWCPATH1@N sourceWCPATH2@M [WCPATH]&lt;br />
-</span><span class='line'>       3. merge [-c M | -r N:M] SOURCE[@REV] [WCPATH]&lt;br /></span></code></pre></td></tr></table></div></figure></div></notextile></p>
-</p></div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/8/">&larr; Older</a>
@@ -632,6 +600,10 @@ svn merge的help如下：<br />
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/10/29/kapa/">罗伯特－卡帕</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/09/19/mind/">皆存于心</a>
       </li>
     
@@ -645,10 +617,6 @@ svn merge的help如下：<br />
     
       <li class="post">
         <a href="/blog/2012/09/02/autumn/">秋天</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/08/29/snail/">蜗牛</a>
       </li>
     
   </ul>
