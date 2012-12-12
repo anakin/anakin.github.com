@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>svn merge使用方法 - My Octopress Blog</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="黑子, originally uploaded by anakin_sun. 这是一只纯黑的黑猫，叫黑子。
+svn是继cvs之后如今比较流行的版本管理工具，再后面比较流行的是git，号称分布式。对于版本管理来说我觉得除了基本的check out和check in以及update， &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://yoursite.com/blogs/231">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:yoursite.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Svn Merge使用方法</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-01-05T00:00:00+08:00" pubdate data-updated="true">Jan 5<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><div style="text-align: left; padding: 3px;">
+<p><a href="http://www.flickr.com/photos/anakinsun/4239123993/" title="photo sharing"><img src="http://farm3.static.flickr.com/2741/4239123993_4baa2d55a1.jpg" style="border:6px solid #4C493D;padding:4px;" alt="" /></a><br />
+<br />
+<span style="font-size: 0.8em; margin-top: 0px;"><a href="http://www.flickr.com/photos/anakinsun/4239123993/">黑子</a>, originally uploaded by <a href="http://www.flickr.com/people/anakinsun/">anakin_sun</a>.</span></p>
+</div>
+<p>
+<p>这是一只纯黑的黑猫，叫黑子。<br />
+svn是继cvs之后如今比较流行的版本管理工具，再后面比较流行的是git，号称分布式。对于版本管理来说我觉得除了基本的check out和check in以及update，考量工具好坏的就是分支和合并功能，俗称branch和merge。<br />
+目前为止，我已然觉得分支多了是噩梦，没事千万别弄太多分支出来折磨自己。<br />
+记录一下svn的分支和合并操作，备查。<br />
+<b>建立一个分支：</b><br />
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>svn cp url_to_trunk url_to_branches/branches_name</span></code></pre></td></tr></table></div></figure></div></notextile><br />
+注意这里要记住当前的版本号，以后merge的时候用，重要。<br />
+<b>合并到trunk：</b><br />
+首先进入trunk的work copy，<br />
+执行：<br />
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>svn merge branches_name@version branches_name .</span></code></pre></td></tr></table></div></figure></div></notextile><br />
+version就是create branches时的版本号。<br />
+merge之后，svn st即可看到之后的情景，有冲突的解决冲突，然后提交就ok。<br />
+<br />
+可以使用 &#8212;dry-run参数来模拟执行merge的过程。<br />
+<br />
+svn merge的help如下：<br />
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>&lt;br />
+</span><span class='line'>&lt;br />
+</span><span class='line'>&lt;br />
+</span><span class='line'># svn merge --help&lt;br />
+</span><span class='line'>merge: Apply the differences between two sources to a working copy path.&lt;br />
+</span><span class='line'>usage: 1. merge sourceURL1[@N] sourceURL2[@M] [WCPATH]&lt;br />
+</span><span class='line'>       2. merge sourceWCPATH1@N sourceWCPATH2@M [WCPATH]&lt;br />
+</span><span class='line'>       3. merge [-c M | -r N:M] SOURCE[@REV] [WCPATH]&lt;br /></span></code></pre></td></tr></table></div></figure></div></notextile></p>
+</p></div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Your Name</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-01-05T00:00:00+08:00" pubdate data-updated="true">Jan 5<span>th</span>, 2010</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://yoursite.com/blogs/231" data-via="" data-counturl="http://yoursite.com/blogs/231" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blogs/230" title="Previous Post: 雪">&laquo; 雪</a>
+      
+      
+        <a class="basic-alignment right" href="/blogs/232" title="Next Post: 北京看“avatar”影院效果排名">北京看“avatar”影院效果排名 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/12/07/music/">“那些歌”</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/10/29/autumn-time/">秋天就这么过去了</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/10/29/kapa/">罗伯特－卡帕</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/09/19/mind/">皆存于心</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/09/15/something/">头发长了多难过</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Your Name -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
