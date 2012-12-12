@@ -1,0 +1,16 @@
+---
+layout: post
+title: '甜蜜的杯子'
+date: 2009-4-16
+wordpress_id: 162
+permalink: /blogs/162
+comments: true
+---
+<div style="text-align: left; padding: 3px;">
+<a href="http://www.flickr.com/photos/anakinsun/3444355178/" title="photo sharing"><img src="http://farm4.static.flickr.com/3385/3444355178_a6bd855f26.jpg" style="border:6px solid #4C493D;padding:4px;" alt="" /></a>
+<br />
+<span style="font-size: 0.8em; margin-top: 0px;"><a href="http://www.flickr.com/photos/anakinsun/3444355178/">甜蜜的杯子</a>, originally uploaded by <a href="http://www.flickr.com/people/anakinsun/">anakin_sun</a>.</span>
+</div>
+<p>
+
+</p>

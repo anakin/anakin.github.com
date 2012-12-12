@@ -1,0 +1,24 @@
+---
+layout: post
+title: '杯具啊'
+date: 2009-12-9
+wordpress_id: 223
+permalink: /blogs/223
+comments: true
+---
+<div style="text-align: left; padding: 3px;">
+<a href="http://www.flickr.com/photos/anakinsun/4171928952/" title="photo sharing"><img src="http://farm3.static.flickr.com/2712/4171928952_2db47abe5c.jpg" style="border:6px solid #4C493D;padding:4px;" alt="" /></a>
+<br />
+<span style="font-size: 0.8em; margin-top: 0px;"><a href="http://www.flickr.com/photos/anakinsun/4171928952/">杯具</a>, originally uploaded by <a href="http://www.flickr.com/people/anakinsun/">anakin_sun</a>.</span>
+</div>
+<p>
+俗话说人生就是茶几，上面摆满了杯具。<br />
+俗话又说人生就是茶叶，注定要泡在杯具里。<br />
+俗话老说实话，真讨厌。<br />
+<br />
+例如今天，在天朝的互联网历史上就注定是杯具的一天，N个BT网站被封，very操蛋被和谐，虽然有微弱的声音跳出来说是服务器故障，大家少安毋躁，但是我们知道，和谐是早晚的事，默哀也不差这几天。<br />
+<br />
+但是经过我深思熟虑，我认识到天朝这么做一定是为我们广大的网民着想，绝对是一切本着为网名服务的精神。流传于这些网站上的无数盗版的靡靡之音和宣扬资本主义思想的美剧已经毒害我们太久了，我们需要被拯救。要知道，美帝亡我之心不死，他们无时无刻不在搞和平演变，要警惕啊。<br />
+<br />
+杯具都源于我们内心的纠结。纠结的原因是你忘记了你生活在天朝。
+</p>

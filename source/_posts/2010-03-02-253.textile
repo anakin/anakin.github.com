@@ -1,0 +1,34 @@
+---
+layout: post
+title: '使用git合并svn代码'
+date: 2010-3-2
+wordpress_id: 253
+permalink: /blogs/253
+comments: true
+---
+<img src="http://static1.139js.com/system/picture/10361442/600x600/IMG_6296.jpg" alt="乌鸦飞" />
+最近尝试了使用git来合并svn管理的代码，相比svn本身令人望而生畏的恐怖的merge，git的合并过程是灰常可以让人接受和忍耐的。
+可能有的童鞋在win平台上使用svn的client进行可视化的merge操作也没多痛苦，但我是在mac下开发的，以前merge都是命令行下操作的，其可悲程度可想而知。尝试使用git之后，清爽许多。
+大概的过程是这样的，假设在svn中有trunk和dev分支。
+首先获得建立dev分支时的版本号：
+{% codeblock %}svn log --stop-on-copy svn-path-to-dev{% endcodeblock %}
+然后从该版本号开始clone代码到git中（假设版本号为30）：
+{% codeblock %}git svn clone -s -r30:HEAD svn-path-to-trunk{% endcodeblock %}
+其实你也可以从更晚的版本开始clone，但是这样git就不知道你之前都对这个分支做了哪些改动，merge的时候git会很迷惑，会导致更多代码需要你手动进行处理。
+接下来进入该目录，例如proj
+<strong>{% codeblock %}cd proj{% endcodeblock %}</strong>
+查看分支情况：
+{% codeblock %}git branch -a{% endcodeblock %}
+你会看到有remotes/dev，这是一个远程的分支，需要创建成本地的：
+{% codeblock %}git branch dev remotes/dev{% endcodeblock %}
+接下来你就可以进行merge操作了，首先要确认你merge的方向，是从dev合并到trunk，还是从trunk合并到dev，操作方法基本差不多，我们以从dev合并到trunk为例
+{% codeblock %}git merge  --squash dev{% endcodeblock %}
+这里要注意使用--squash参数，只merge代码，而不提交，不然会有灵异现象发生。如果有冲突，你会看到提示信息，然后使用mergetool来手动处理冲突文件（mergetool可以在git配置文件中设置，我喜欢使用vimdiff）：
+{% codeblock %}git mergetool{% endcodeblock %}
+全部冲突文件都处理完成之后，先提交代码到git的trunk：
+{% codeblock %}git ci{% endcodeblock %}
+然后再把结果提交到svn中：
+{% codeblock %}git svn dcommit{% endcodeblock %}
+提交之前你也可以使用-n参数进行dry run。
+提交成功，基本上整个过程就结束了。
+有写的不对的地方欢迎指出，按照本文过程搞出什么飞机的自己负全部责任，谢谢。

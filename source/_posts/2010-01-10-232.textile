@@ -1,0 +1,42 @@
+---
+layout: post
+title: '北京看“avatar”影院效果排名'
+date: 2010-1-10
+wordpress_id: 232
+permalink: /blogs/232
+comments: true
+---
+<div style="text-align: left; padding: 3px;">
+<a href="http://www.flickr.com/photos/anakinsun/4243756958/" title="photo sharing"><img src="http://farm3.static.flickr.com/2804/4243756958_9ae2d2d57f.jpg" style="border:6px solid #4C493D;padding:4px;" alt="" /></a>
+<br />
+<span style="font-size: 0.8em; margin-top: 0px;"><a href="http://www.flickr.com/photos/anakinsun/4243756958/">玉米</a>, originally uploaded by <a href="http://www.flickr.com/people/anakinsun/">anakin_sun</a>.</span>
+</div>
+<p>
+从“<a href="http://mcdulldull.ycool.com/post.3840251.html">鱼非鱼</a>”的转来的，还没看“avatar”的同学可以做为一个参考。<br />
+<br />
+<b>阿凡达各种版本综合评分（不考虑银幕大小和座位情况）</b><br />
+　　IMAX数字&金属幕 100分<br />
+　　IMAX胶片&金属幕 99分<br />
+　　IMAX数字&白幕 96分<br />
+　　IMAX胶片&白幕 95分<br />
+　　杜比双机3D&金属幕 90分<br />
+　　索尼4K 3D&金属幕 88分<br />
+　　杜比双机3D&白幕 86分<br />
+　　RealD&金属幕 84分<br />
+　　索尼4K 3D&白幕 84分<br />
+　　2D&白幕 80分<br />
+　　XPAN-D&金属幕 75分<br />
+　　XPAN-D&白幕 70分<br />
+　　杜比单机3D&白幕 60分<br />
+　　以上白幕指普通白幕，高增益白幕的情况介于二者之间，略去 <br />
+<br />
+<b>按照这个标准，北京的影院排名：</b><br />
+北京华星影城，石景山万达影城 （imax，数字）<br />
+北京中国电影博物馆 （imax，胶片）<br />
+北京UME国际影城双井店，UME国际影城安贞店，传奇时代影城，CBD万达影城 （双机3D）<br />
+北京金宝汇百丽宫影城 （RealD）<br />
+<br />
+其他不在排名中的，应该都是84分以下的了。<br />
+<br />
+我们公司在西单大悦城的首都电影院包的场（不属于名单中的影院，但但是离公司近），我觉得效果一般，尤其是靠后一点儿的座位。等过了这段火爆期，可以考虑找个imax数字再看一遍，看看差别到底有多大。
+</p>

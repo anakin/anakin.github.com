@@ -1,0 +1,20 @@
+---
+layout: post
+title: '苹果新款笔记本发布'
+date: 2008-10-15
+wordpress_id: 47
+permalink: /blogs/47
+comments: true
+---
+<img src="http://www.cnbeta.com/upimg/081015/zhangxiaolu_031334.jpg" alt="macbook" width='60%'/>
+<img src="http://www.cnbeta.com/upimg/081015/zhangxiaolu_031425.jpg" alt="macbook" width="60%"/>
+苹果在北京时间15日凌晨的苹果特别媒体发布会上发布了全新设计的苹果笔记本电脑.
+使用了之前所介绍的全新设计工艺. 
+
+新款笔记本有如下特点:
+1. 触控板 :  全新支持多点触摸 最多支持4个手指的触摸
+2. 使用全新的LED黑边框屏幕 : 颜色更加绚丽 亮度更高
+3. 使用全新的N卡 9400M 或 9600M GT 3D处理性能更快
+
+4个手指的触摸。。。。搞个复杂点儿的操作没准和弹钢琴有的一拼。。。。
+个人认为，比老款至少难看一倍。还是我的小黑好看的多。<img src="http://farm4.static.flickr.com/3274/2739892173_d9f2ae07ea_m.jpg" alt="mb404" />

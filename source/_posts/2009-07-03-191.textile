@@ -1,0 +1,19 @@
+---
+layout: post
+title: '火'
+date: 2009-7-3
+wordpress_id: 191
+permalink: /blogs/191
+comments: true
+---
+<div style="text-align: left; padding: 3px;">
+<a href="http://www.flickr.com/photos/anakinsun/3684613542/" title="photo sharing"><img src="http://farm3.static.flickr.com/2564/3684613542_a65d121565.jpg" style="border:6px solid #4C493D;padding:4px;" alt="" /></a>
+<br />
+<span style="font-size: 0.8em; margin-top: 0px;"><a href="http://www.flickr.com/photos/anakinsun/3684613542/">火</a>, originally uploaded by <a href="http://www.flickr.com/people/anakinsun/">anakin_sun</a>.</span>
+</div>
+<p>
+7月3日，大悦城<br />
+中午大叔请大家吃城里的“板扎板”，八个人穿着塑料围裙排排坐，面前是一溜儿整个儿的长铁板，底下加着热，大厨就在你眼前把油倒在铁板上，再用打火机点着，油哄的一下就烧起来，那一下，足以燃起你的无限食欲和乐趣。<br />
+大厨把各种食物在铁板上煎熟，然后分成一份份的放到每个人的盘子里，食物在铁板上发出滋滋的响声，大厨不时自如的挥舞几下手里的刀铲，就像在进行着一场表演，专注而且自豪。这让我觉得在这里做厨师，是一件快乐的事情，因为可以在顾客面前展示自己的厨艺，而不是躲在厨房的某个角落默默无闻的完成一个又一个任务。大厨转过身的时候，我看见他左边耳朵上居然带着一个耳环，哈，还是一代走在时尚前沿的厨师。<br />
+整个中午，大家吃的和聊的都很开心，后来臭豆腐上来的时候，我先撤离了现场。
+</p>

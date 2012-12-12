@@ -1,0 +1,16 @@
+---
+layout: post
+title: '粽子节'
+date: 2009-5-26
+wordpress_id: 170
+permalink: /blogs/170
+comments: true
+---
+<div style="text-align: left; padding: 3px;">
+<a href="http://www.flickr.com/photos/anakinsun/3565497277/" title="photo sharing"><img src="http://farm4.static.flickr.com/3348/3565497277_e288246dc9.jpg" style="border:6px solid #4C493D;padding:4px;" alt="" /></a>
+<br />
+<span style="font-size: 0.8em; margin-top: 0px;"><a href="http://www.flickr.com/photos/anakinsun/3565497277/">粽子</a>, originally uploaded by <a href="http://www.flickr.com/people/anakinsun/">anakin_sun</a>.</span>
+</div>
+<p>
+粽子节快到了，公司给每个人都发了一包粽子（见图）。稻香村的，包装很好看，像一个钱袋儿，以致于我对这个袋子的兴趣远远超过了里面的内容。我们正在努力把粽子做的又好看又贵又难吃，屈原先生可以在水里安息了吧。
+</p>

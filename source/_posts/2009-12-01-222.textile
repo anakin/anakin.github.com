@@ -1,0 +1,22 @@
+---
+layout: post
+title: '迎来送往'
+date: 2009-12-1
+wordpress_id: 222
+permalink: /blogs/222
+comments: true
+---
+<div style="text-align: left; padding: 3px;">
+<a href="http://www.flickr.com/photos/anakinsun/4149237491/" title="photo sharing"><img src="http://farm3.static.flickr.com/2610/4149237491_737877c390.jpg" style="border:6px solid #4C493D;padding:4px;" alt="" /></a>
+<br />
+<span style="font-size: 0.8em; margin-top: 0px;"><a href="http://www.flickr.com/photos/anakinsun/4149237491/">迎来送往</a>, originally uploaded by <a href="http://www.flickr.com/people/anakinsun/">anakin_sun</a>.</span>
+</div>
+<p>
+最近有几个一起从毛坯房过来的同事要离职了。共处一年多的时光说长不长说短也不算短，有人说迎来送往的这就是做互联网，只是这迎来送往有的时候真的让我很感伤。<br />
+已经不记得是第几次有这样的感觉。是不是每个公司都这样？一开始拼命扩张，然后开始慢慢的淘汰，变化，动荡。是的，这让我挺绝望。人家说人一走，茶就凉。<br />
+我们当初那些激昂的梦想，那些澎湃的激情，那些美好的愿望，如今，他们都去了什么地方。<br />
+<br />
+－－－－－－－－－－－淡定的分割线－－－－－－－－－－－<br />
+<br />
+聚散离合，人生常有，几个轮次下来，我倒是攒了很多志同道合的好朋友。oh yeah。
+</p>

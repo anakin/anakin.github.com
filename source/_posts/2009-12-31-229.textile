@@ -1,0 +1,16 @@
+---
+layout: post
+title: '二〇〇九'
+date: 2009-12-31
+wordpress_id: 229
+permalink: /blogs/229
+comments: true
+---
+<div style="text-align: left; padding: 3px;">
+<a href="http://www.flickr.com/photos/anakinsun/4230907322/" title="photo sharing"><img src="http://farm3.static.flickr.com/2561/4230907322_1cb1c02e6b.jpg" style="border:6px solid #4C493D;padding:4px;" alt="" /></a>
+<br />
+<span style="font-size: 0.8em; margin-top: 0px;"><a href="http://www.flickr.com/photos/anakinsun/4230907322/">球</a>, originally uploaded by <a href="http://www.flickr.com/people/anakinsun/">anakin_sun</a>.</span>
+</div>
+<p>
+二〇〇九就要过去了，我很怀念它。
+</p>

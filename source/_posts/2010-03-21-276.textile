@@ -1,0 +1,35 @@
+---
+layout: post
+title: '在我左右'
+date: 2010-3-21
+wordpress_id: 276
+permalink: /blogs/276
+comments: true
+---
+<img src="http://static1.139js.com/system/picture/10630956/600x600/IMG_6954.jpg" alt="沙尘暴之后的夕阳" />
+
+沙尘暴之后的夕阳
+
+<img src="http://static1.139js.com/system/picture/10630943/600x600/IMG_6953.jpg" alt="书架上的羊" />
+
+坐在书架上的羊
+
+<img src="http://static1.139js.com/system/picture/10630925/600x600/IMG_6952.jpg" alt="窗台上" />
+
+窗台上的筒
+
+<img src="http://static1.139js.com/system/picture/10630919/600x600/IMG_6951.jpg" alt="书架" />
+
+书架
+
+<img src="http://static1.139js.com/system/picture/10630907/600x600/IMG_6946.jpg" alt="墨水" />
+
+书架上的墨水
+
+<img src="http://static1.139js.com/system/picture/10630893/600x600/IMG_6945.jpg" alt="沙发上的密封" />
+
+坐在沙发上的小蜜蜂
+
+<img src="http://static1.139js.com/system/picture/10630883/600x600/IMG_6939.jpg" alt="睡着了的玉米同学" />
+
+睡着了的玉米同学

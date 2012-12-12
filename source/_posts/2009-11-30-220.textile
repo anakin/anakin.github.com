@@ -1,0 +1,21 @@
+---
+layout: post
+title: '火炬之光'
+date: 2009-11-30
+wordpress_id: 220
+permalink: /blogs/220
+comments: true
+---
+<div style="text-align: left; padding: 3px;">
+<a href="http://www.flickr.com/photos/anakinsun/4146540702/" title="photo sharing"><img src="http://farm3.static.flickr.com/2651/4146540702_4f0ed81853.jpg" style="border:6px solid #4C493D;padding:4px;" alt="" /></a>
+<br />
+<span style="font-size: 0.8em; margin-top: 0px;"><a href="http://www.flickr.com/photos/anakinsun/4146540702/">火炬之光</a>, originally uploaded by <a href="http://www.flickr.com/people/anakinsun/">anakin_sun</a>.</span>
+</div>
+<p>
+这是我最近在玩的游戏。<br />
+据说是原来暴雪的人主力开发的，据说很多地方貌似《暗黑三》，据说因为它导致了《暗黑三》的跳票。我之前一致都很期待《暗黑三》的。<br />
+不管“据”是怎么说的，总之这款游戏还算值得一玩，玩过暗黑的同学们基本不用学习就能很快上手。有三种角色（法师，蛮子，弓箭手）可以选择，还可以带一个宠物（猫或者狗）。<br />
+游戏安装包只有400多M，效果还不赖，地图很深（地牢据说有120层，但是后面基本都是重复的，只是怪物的级别更高），怪物很凶猛，打着打着就觉得很累（用YC的话说，还不如去带小孩儿），随便一个小怪过来一刀就砍死你，唯一的前进途径就是不停的升级你的装备。<br />
+说到装备，和暗黑里面类似，但是种类更多，比如有护肩。同样分白色，蓝色，紫色（套装）和金色（unique）,而且可以不停的花钱在NPC那里强化，一直强化到很变态，只是有百分之几的机会会强化成白的，前功尽弃。<br />
+目前这个游戏还不算太完善，有一些著名的bug，比如之前的版本可以打劫商店（1.12修正了），目前经常还能碰到人物会卡在地图里等等。不过总的来说瑕不掩瑜吧，在《暗黑三》还没出现的日子里，填补一下空白吧。
+</p>

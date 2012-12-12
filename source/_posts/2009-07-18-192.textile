@@ -1,0 +1,25 @@
+---
+layout: post
+title: 'What Is Cocoa?'
+date: 2009-7-18
+wordpress_id: 192
+permalink: /blogs/192
+comments: true
+---
+<a href="http://www.flickr.com/photos/27921324@N04/3716021242" title="View '荷叶' on Flickr.com"><img src="http://farm3.static.flickr.com/2655/3716021242_15c490c84c.jpg" alt="荷叶" border="0" width="500" height="333" /></a>
+
+Cocoa is a complete set of classes and application programming interfaces (APIs) for building Mac OS X 
+applications and tools. With over 240 classes, Cocoa is divided into two essential frameworks: the 
+Foundation framework and the Application Kit. 
+The Foundation framework provides a fundamental set of tools for representing fundamental data types, 
+accessing operating system services, threading, messaging, and more. The Application Kit provides the 
+functionality to build graphical user interfaces (GUI) for Cocoa applications. It provides access to the 
+standard Aqua interface components ranging from menus, buttons, and text fields—the building blocks of 
+larger interfaces—to complete, prepackaged interfaces for print dialogs, file operation dialogs, and alert 
+dialogs. The Application Kit also provides higher-level functionality to implement multiple document 
+applications, text handling, and graphics. 
+Classes are not the only constituents of the Cocoa frameworks. Some programming tasks, such as 
+sounding a system beep, are best accomplished with a simple C function. Cocoa includes a number of 
+functions for accomplishing tasks such as manipulating byte orders and drawing simple graphics. 
+Additionally, Cocoa defines a number of custom data types and constants to provide a higher degree of 
+abstraction to many method parameters. 

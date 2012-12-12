@@ -1,0 +1,18 @@
+---
+layout: post
+title: '无题'
+date: 2009-4-16
+wordpress_id: 163
+permalink: /blogs/163
+comments: true
+---
+<div style="text-align: left; padding: 3px;">
+<a href="http://www.flickr.com/photos/anakinsun/3443538413/" title="photo sharing"><img src="http://farm4.static.flickr.com/3571/3443538413_ae5f93b333.jpg" style="border:6px solid #4C493D;padding:4px;" alt="" /></a>
+<br />
+<span style="font-size: 0.8em; margin-top: 0px;"><a href="http://www.flickr.com/photos/anakinsun/3443538413/">无题</a>, originally uploaded by <a href="http://www.flickr.com/people/anakinsun/">anakin_sun</a>.</span>
+</div>
+<p>
+大悦城。<br />
+从旁边路过的时候无意间看到，顺便咔嚓了这张。<br />
+很喜欢左边的蓝色。
+</p>

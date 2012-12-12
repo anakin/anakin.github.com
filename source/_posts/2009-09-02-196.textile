@@ -1,0 +1,17 @@
+---
+layout: post
+title: '墙角'
+date: 2009-9-2
+wordpress_id: 196
+permalink: /blogs/196
+comments: true
+---
+<div style="text-align: left; padding: 3px;">
+<a href="http://www.flickr.com/photos/anakinsun/3880655879/" title="photo sharing"><img src="http://farm4.static.flickr.com/3622/3880655879_c581698d12.jpg" style="border:6px solid #4C493D;padding:4px;" alt="" /></a>
+<br />
+<span style="font-size: 0.8em; margin-top: 0px;"><a href="http://www.flickr.com/photos/anakinsun/3880655879/">墙角</a>, originally uploaded by <a href="http://www.flickr.com/people/anakinsun/">anakin_sun</a>.</span>
+</div>
+<p>
+中午和同事去吃饭，赶上饭店在装修，于是服务员领着我们从曲折的小路去她们的新店，经过一个墙角的时候，看到旁边的屋檐上爬了一丛貌似爬山虎的草，于是顺手拍了下来。<br />
+在破旧灰暗的墙角里，它显得更加嫩绿和鲜亮，它爬的那么努力那么开心，可是我想到在不远处等着它的是一个凉飕飕的秋天，不免觉得惨兮兮的。
+</p>

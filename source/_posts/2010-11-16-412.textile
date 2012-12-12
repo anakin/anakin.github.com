@@ -1,0 +1,20 @@
+---
+layout: post
+title: '自制简易拍摄装置'
+date: 2010-11-16
+wordpress_id: 412
+permalink: /blogs/412
+comments: true
+---
+按照从网上看来的方法，找了个纸箱子，用刀把几个面扣掉，贴上宣纸，一个简易的拍摄装置就搞定了
+<img src="http://static1.139js.com/system/picture/12307161/600x600/IMG_9070.jpg" alt="" />
+两边用俩台灯，然后用机顶的580ex2向上45度打向上方，拍摄效果如下：
+<img src="http://static1.139js.com/system/picture/12307164/600x600/IMG_9069.jpg" alt="" />
+<img src="http://static1.139js.com/system/picture/12307179/600x600/1.jpg" alt="" />
+
+目前还不完善，效果也有限，需要改进的地方有：
+1.背景颜色不纯，而且有个裂缝
+2.白平衡不准
+3.台灯不够亮
+4.没有使用三脚架，有可能对焦不稳
+。。。。。。

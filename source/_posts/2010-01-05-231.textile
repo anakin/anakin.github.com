@@ -1,0 +1,41 @@
+---
+layout: post
+title: 'svn merge使用方法'
+date: 2010-1-5
+wordpress_id: 231
+permalink: /blogs/231
+comments: true
+---
+<div style="text-align: left; padding: 3px;">
+<a href="http://www.flickr.com/photos/anakinsun/4239123993/" title="photo sharing"><img src="http://farm3.static.flickr.com/2741/4239123993_4baa2d55a1.jpg" style="border:6px solid #4C493D;padding:4px;" alt="" /></a>
+<br />
+<span style="font-size: 0.8em; margin-top: 0px;"><a href="http://www.flickr.com/photos/anakinsun/4239123993/">黑子</a>, originally uploaded by <a href="http://www.flickr.com/people/anakinsun/">anakin_sun</a>.</span>
+</div>
+<p>
+这是一只纯黑的黑猫，叫黑子。<br />
+svn是继cvs之后如今比较流行的版本管理工具，再后面比较流行的是git，号称分布式。对于版本管理来说我觉得除了基本的check out和check in以及update，考量工具好坏的就是分支和合并功能，俗称branch和merge。<br />
+目前为止，我已然觉得分支多了是噩梦，没事千万别弄太多分支出来折磨自己。<br />
+记录一下svn的分支和合并操作，备查。<br />
+<b>建立一个分支：</b><br />
+{% codeblock %}svn cp url_to_trunk url_to_branches/branches_name{% endcodeblock %}<br />
+注意这里要记住当前的版本号，以后merge的时候用，重要。<br />
+<b>合并到trunk：</b><br />
+首先进入trunk的work copy，<br />
+执行：<br />
+{% codeblock %}svn merge branches_name@version branches_name .{% endcodeblock %}<br />
+version就是create branches时的版本号。<br />
+merge之后，svn st即可看到之后的情景，有冲突的解决冲突，然后提交就ok。<br />
+<br />
+可以使用 --dry-run参数来模拟执行merge的过程。<br />
+<br />
+svn merge的help如下：<br />
+{% codeblock %}<br />
+<br />
+<br />
+# svn merge --help<br />
+merge: Apply the differences between two sources to a working copy path.<br />
+usage: 1. merge sourceURL1[@N] sourceURL2[@M] [WCPATH]<br />
+       2. merge sourceWCPATH1@N sourceWCPATH2@M [WCPATH]<br />
+       3. merge [-c M | -r N:M] SOURCE[@REV] [WCPATH]<br />
+{% endcodeblock %}
+</p>

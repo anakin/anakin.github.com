@@ -1,0 +1,17 @@
+---
+layout: post
+title: '周末'
+date: 2010-7-11
+wordpress_id: 378
+permalink: /blogs/378
+comments: true
+---
+<img src="http://static1.139js.com/system/picture/11644494/600x600/IMG_1668.jpg" alt="weekend" />
+
+<img src="http://static1.139js.com/system/picture/11644473/600x600/IMG_1659.jpg" alt="weekend" />
+
+<img src="http://static1.139js.com/system/picture/11644463/600x600/IMG_1653.jpg" alt="weekend" />
+
+<img src="http://static1.139js.com/system/picture/11644442/600x600/IMG_1611.jpg" alt="weekend" />
+
+<img src="http://static1.139js.com/system/picture/11644439/600x600/IMG_1670.jpg" alt="weekend" />

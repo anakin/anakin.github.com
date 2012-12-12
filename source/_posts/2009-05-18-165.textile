@@ -1,0 +1,18 @@
+---
+layout: post
+title: '办公室对面'
+date: 2009-5-18
+wordpress_id: 165
+permalink: /blogs/165
+comments: true
+---
+<div style="text-align: left; padding: 3px;">
+<a href="http://www.flickr.com/photos/anakinsun/3541256381/" title="photo sharing"><img src="http://farm3.static.flickr.com/2208/3541256381_567cb13576.jpg" style="border:6px solid #4C493D;padding:4px;" alt="" /></a>
+<br />
+<span style="font-size: 0.8em; margin-top: 0px;"><a href="http://www.flickr.com/photos/anakinsun/3541256381/">办公室对面</a>, originally uploaded by <a href="http://www.flickr.com/people/anakinsun/">anakin_sun</a>.</span>
+</div>
+<p>
+5月16日凌晨。<br />
+很久没有像那天晚上那样通宵的在公司加班了。就像同事说的，很喜欢那种很多人在一起研究解决问题的状态，那种简单的投入的状态。<br />
+窗外的西单北大街，安静而美丽，真喜欢这样的夜。
+</p>

@@ -1,0 +1,14 @@
+---
+layout: post
+title: '北京的秋天'
+date: 2010-11-7
+wordpress_id: 407
+permalink: /blogs/407
+comments: true
+---
+拜老天所赐，今年北京的秋天似乎比每年要长一点儿，让我们得以享受这个最美好的季节。
+<img src="http://static1.139js.com/system/picture/12256611/600x600/IMG_8375.jpg" alt="autumn" />
+<img src="http://static1.139js.com/system/picture/12256609/600x600/IMG_8364.jpg" alt="autumn" />
+<img src="http://static1.139js.com/system/picture/12256596/600x600/IMG_8362.jpg" alt="autumn" />
+<img src="http://static1.139js.com/system/picture/12256591/600x600/IMG_8355.jpg" alt="autumn" />
+<img src="http://static1.139js.com/system/picture/12256585/600x600/IMG_8347.jpg" alt="autumn" />

@@ -1,0 +1,11 @@
+---
+layout: post
+title: '我回来了'
+date: 2010-8-2
+wordpress_id: 390
+permalink: /blogs/390
+comments: true
+---
+<img src="http://static1.139js.com/system/picture/11732279/600x600/IMG_4672.jpg" alt="布达拉宫" />
+拉萨到北京，7月31日，T28.
+游记稍后整理。

@@ -1,0 +1,17 @@
+---
+layout: post
+title: '阳光美好如斯，夜晚静谧如斯'
+date: 2010-10-1
+wordpress_id: 403
+permalink: /blogs/403
+comments: true
+---
+<img src="http://static1.139js.com/system/picture/12081502/600x600/IMG_7395.jpg" alt="sun" />
+
+<img src="http://static1.139js.com/system/picture/12081508/600x600/IMG_7397.jpg" alt="sun" />
+
+<img src="http://static1.139js.com/system/picture/12081510/600x600/IMG_7400.jpg" alt="sun" />
+
+<img src="http://static1.139js.com/system/picture/12081512/600x600/IMG_7452.jpg" alt="sun" />
+
+<img src="http://static1.139js.com/system/picture/12081513/600x600/IMG_7510.jpg" alt="night" />

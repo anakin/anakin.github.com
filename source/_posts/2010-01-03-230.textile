@@ -1,0 +1,20 @@
+---
+layout: post
+title: '雪'
+date: 2010-1-3
+wordpress_id: 230
+permalink: /blogs/230
+comments: true
+---
+<div style="text-align: left; padding: 3px;">
+<a href="http://www.flickr.com/photos/anakinsun/4239511363/" title="photo sharing"><img src="http://farm3.static.flickr.com/2709/4239511363_3d5999a43f.jpg" style="border:6px solid #4C493D;padding:4px;" alt="" /></a>
+<br />
+<span style="font-size: 0.8em; margin-top: 0px;"><a href="http://www.flickr.com/photos/anakinsun/4239511363/">雪</a>, originally uploaded by <a href="http://www.flickr.com/people/anakinsun/">anakin_sun</a>.</span>
+</div>
+<p>
+2010年的第一场雪。<br />
+早上起来，窗外已经是一个白色的世界，据说温度要降到北京40年最低。新闻里说明天中小学放假一天，其他单位自己看着办，目前为止我这个在“其他单位”上班的还没有收到明天可以不上班的指令。开车肯定是没戏了，不知道地铁得挤成什么样。<br />
+白天带着玉米到雪地里跑了两回，这家伙在雪地里撒了点儿野，还吃了不少雪，爽个不行，我在相机外面套了个塑料袋，在取景器的地方抠个洞，拍了几张照片，丢到flickr上了。<br />
+下午在沙发上喝茶听音乐，看外面飘着雪花，看马路上汽车们在鬼爬，正惬意的紧。两个保安正顶风冒雪的在清扫小区的道路，对面二楼的一个老太太扔了两个小黄帽给他们，一直看着他们扫完走远。<br />
+我觉得很温暖。
+</p>

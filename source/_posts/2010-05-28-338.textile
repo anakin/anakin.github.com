@@ -1,0 +1,11 @@
+---
+layout: post
+title: '那些戴帽子的可爱同事们'
+date: 2010-5-28
+wordpress_id: 338
+permalink: /blogs/338
+comments: true
+---
+<img src="http://static1.139js.com/system/picture/11314048/600x600/hat.jpg" alt="hat" />
+
+谢谢每个同事在被我要求戴着帽子拍照片的时候表现出来的无私大方默契配合积极摆pose的国际主义精神。
