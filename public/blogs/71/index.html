@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>创建iPhone应用【翻译】【一】 - 奔向NB的生活</title>
+  <meta name="author" content="Anakin Sun">
+
+  
+  <meta name="description" content="在较高的级别上，创建iPhone应用的过程和创建Mac OS X的过程很相似。都使用相同的工具和大量相同的基本库。当然，尽管十分相似，两者也有些许的不同。iPhone不是一个桌面电脑；它有着不同的使用目的，需要不同的设计方式。这种方式需要利用iPhone &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://blog.enjoyido.com/blogs/71">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="奔向NB的生活" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">奔向NB的生活</a></h1>
+  
+    <h2>A blog for life.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:blog.enjoyido.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">创建iPhone应用【翻译】【一】</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-10-26T00:00:00+08:00" pubdate data-updated="true">Oct 26<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>在较高的级别上，创建iPhone应用的过程和创建Mac OS X的过程很相似。都使用相同的工具和大量相同的基本库。当然，尽管十分相似，两者也有些许的不同。iPhone不是一个桌面电脑；它有着不同的使用目的，需要不同的设计方式。这种方式需要利用iPhone OS的优势同时摒弃移动环境下不相关或不切实际的特性。iPhone和iPod更小的触控屏幕也意味着你的应用的用户界面应当有良好的组织并且始终着眼于用户最需要的信息。<br />
+iPhone OS让用户以和桌面电脑不同的方式同iPhone和iPod设备交互。多点触控界面是一个革命性的获得事件，报告每个单独的手指触及屏幕，并使它能够处理多手指手势和更容易的进行其他复杂的输入的途径。此外，内置硬件的功能，如加速度，尽管目前在一些台式机系统，更广泛地用于iPhone操作系统来跟踪屏幕目前的方向，并调整相应的内容。了解如何使用这些功能中的应用将帮助您专注于对于用户来说正确的设计。<br />
+了解设计iPhone应用最好的办法，是看一个例子。本文带您浏览MoveMe示例应用程序。本示例演示许多iPhone应用的典型行为，包括：</p>
+<ul>
+	<li>初始化应用</li>
+	<li>显示窗口</li>
+	<li>绘制自定义内容</li>
+	<li>处理触控事件</li>
+	<li>运行动画</li>
+</ul>
+<p>图1是这个应用的界面。<br />
+<img src="http://devimages.apple.com/images/gettingstarted/creatingiphoneapps/MoveMe.jpg" alt="moveme" />点击“Welcome&quot;按钮触发一个动画，引起按钮跳动并且围绕在你的手指周围。用你的手指在屏幕周围拖动，按钮跟随你的手指。你的手指离开屏幕，运行另一个动画，按钮重新回到原来的位置。在按钮以外的任何地方双击会改变按钮的问候语言。<br />
+阅读本文的其他章节之前，你应该下载示例（<a href="http://developer.apple.com/iphone/library/samplecode/MoveMe/index.html">MoveMe</a>）这样你就能直接在源代码里跟随后面的内容。你应该已经阅读了iPhone Dev Center中下面的章节以对iPhone OS和相关工具以及你用来开发的语言有一个基本的了解：<br />
+<ul><br />
+<li><a href="http://developer.apple.com/iphone/gettingstarted/docs/iphoneosoverview.html">iPhone OS Overview</a>（前面翻译过。）</li><br />
+<li><a href="http://developer.apple.com/iphone/gettingstarted/docs/iphonedevtools.html">Tools for iPhone Development</a></li></p>
+</ul>
+<p>如果你对Objective-C编程语言不熟悉，你还应该阅读 <a href="http://developer.apple.com/iphone/gettingstarted/docs/objectivecprimer.html">Learning Objective-C: A Primer</a> 来熟悉Objective-C的基本符号。<br />
+浏览MoveMe示例项目<br />
+下载的MoveMe示例为你提供了源代码和编译运行这个应用所需的文件。你应该使用Xcode来管理iPhone OS项目。每个Xcode项目窗口都集合了你的代码和源文件，编译你的代码和组装你的应用的编译规则以及用来编辑和调试你的代码的工具。<br />
+<img src="http://devimages.apple.com/images/gettingstarted/creatingiphoneapps/moveme_project.jpg" alt="moveme" /><br />
+图2显示了MoveMe应用的Xcode项目窗口。把项目拷贝到你的本地并双击MoveMe.xcodeproj文件打开。项目包括几个Objective-C源文件（.m后缀名）,nib文件（.xib后缀名）,几个图片文件和其他资源，和预定的目标（ MoveMe ）用来建立应用捆绑。<br />
+在iPhone OS里，你的Xcode项目的最终目标是一个应用捆绑，这是特殊类型的目录用来包含你的应用的二进制可执行代码和资源文件。<br />
+iPhone OS中的绑定有一个相当平的目录结构，其中大部分文件在捆绑目录的高层。然而，一个捆绑也可能包含用来保存字符串和其他特定语言资源文件的本地版本的子目录。</p>
+<p>原文地址：https://developer.apple.com/iphone/gettingstarted/docs/creatingiphoneapps.action</p></div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Anakin Sun</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-10-26T00:00:00+08:00" pubdate data-updated="true">Oct 26<span>th</span>, 2008</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://blog.enjoyido.com/blogs/71" data-via="" data-counturl="http://blog.enjoyido.com/blogs/71" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blogs/63" title="Previous Post: 饕餮的电影之夜">&laquo; 饕餮的电影之夜</a>
+      
+      
+        <a class="basic-alignment right" href="/blogs/87" title="Next Post: 找回msn的密码">找回msn的密码 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/12/07/music/">“那些歌”</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/10/29/autumn-time/">秋天就这么过去了</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/10/29/kapa/">罗伯特－卡帕</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/09/19/mind/">皆存于心</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/09/15/something/">头发长了多难过</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Anakin Sun -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
