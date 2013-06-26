@@ -6,16 +6,9 @@ require "stringex"
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 ssh_user       = "anakinsun@gmail.com@github.com"
 ssh_port       = "22"
-<<<<<<< HEAD
 document_root  = "~/anakinsun/anakinsun.github.com"
 rsync_delete   = true
 deploy_default = "push"
-=======
-document_root  = "~/website.com/"
-rsync_delete   = false
-rsync_args     = ""  # Any extra arguments to pass to rsync
-deploy_default = "rsync"
->>>>>>> bc674751486a2a5d423e6c6a0aa8778da3c73231
 
 # This will be configured for you when you run config_deploy
 deploy_branch  = "master"
