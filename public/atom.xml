@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[奔向NB的生活]]></title>
-  <link href="http://anakin.github.com/atom.xml" rel="self"/>
-  <link href="http://anakin.github.com/"/>
-  <updated>2013-06-26T16:06:08+08:00</updated>
-  <id>http://anakin.github.com/</id>
+  <link href="http://blog.enjoyido.com/atom.xml" rel="self"/>
+  <link href="http://blog.enjoyido.com/"/>
+  <updated>2013-09-10T00:03:15+08:00</updated>
+  <id>http://blog.enjoyido.com/</id>
   <author>
     <name><![CDATA[Anakin Sun]]></name>
     
@@ -14,10 +14,24 @@
 
   
   <entry>
+    <title type="html"><![CDATA[离家]]></title>
+    <link href="http://blog.enjoyido.com/blog/2013/08/05/leave-home/"/>
+    <updated>2013-08-05T11:08:00+08:00</updated>
+    <id>http://blog.enjoyido.com/blog/2013/08/05/leave-home</id>
+    <content type="html"><![CDATA[<p><img class="left" src="http://fs0.139js.com/file/feed_d054d3d641539bc63d8esdgb5.jpg" width="300" title="leave #2" >
+家是什么。对我来说，是亲人，是生我养我的那一小块儿土地，是那个让我感到安全的氛围。<br/>
+昨天给家里打电话，我爸说二姑把经营了多年的商店兑给别人，搬到沈阳女儿那里去了，说是年纪大了，干不动了。二姑父得过一次脑血栓，现在腿脚不方便，所以里里外外都是二姑一个人忙，确实够累，可能以后都不回来了。搬的当天中午，去爷爷家里和几个兄弟姐妹一起吃了顿饭。本来说是第二天才走，我爸第二天一早去二姑家的时候，才知道头天夜里就启程了。我爸跟我说的时候还算平静，可能心里也有波澜吧，我能从细微的语气里听到那种不舍和无奈。我难以想象二姑离开自己生活了多年的那个地方的时候心里是什么滋味儿。如果可以，我相信她不会愿意选择离开那儿。就算面前是一个更美好的明天，离开那个叫做家的地方肯定也有万般的不舍。<br/>
+前几年有一个邻居也是这样，因为生病，没人照顾，不得不把家托付给别人，远走他乡投奔自己的女儿，听说临走的时候，一个几十岁的大老爷们儿哭的像个孩子。就因为不知道以后，还能不能回来了。<br/>
+其实那个小地方有什么值得留恋的么？从物质条件来说，完全没法和大城市相比。有的就是生活了几十年的土地，房子院子，周围的邻居，远远看见背影或者听见脚步声就知道是谁的那种熟知，以及因此带来的安全感和归属感吧。<br/>
+那就是家。</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[人间四月天]]></title>
-    <link href="http://anakin.github.com/blog/2013/04/11/april/"/>
+    <link href="http://blog.enjoyido.com/blog/2013/04/11/april/"/>
     <updated>2013-04-11T18:42:00+08:00</updated>
-    <id>http://anakin.github.com/blog/2013/04/11/april</id>
+    <id>http://blog.enjoyido.com/blog/2013/04/11/april</id>
     <content type="html"><![CDATA[<p><img class="left" src="http://fs0.139js.com/file/feed_144766f1ae1f70ca8cda9mq05.jpg" width="300" title="april #2" >
 人间四月芳菲尽，这说的必须不是北京。<br/>
 如今四月这么久了，不穿秋裤还冻的发抖。<br/>
@@ -30,9 +44,9 @@
   
   <entry>
     <title type="html"><![CDATA[“春”]]></title>
-    <link href="http://anakin.github.com/blog/2013/03/23/spring/"/>
+    <link href="http://blog.enjoyido.com/blog/2013/03/23/spring/"/>
     <updated>2013-03-23T14:14:00+08:00</updated>
-    <id>http://anakin.github.com/blog/2013/03/23/spring</id>
+    <id>http://blog.enjoyido.com/blog/2013/03/23/spring</id>
     <content type="html"><![CDATA[<p><img class="left" src="http://fs0.139js.com/file/feed_c815f950553be1da187bwkw05.jpg" width="300" title="coffee #2" >
 冬天如此漫长，春天被无情的压扁了。
 春天到了，我们还生活在冬天里。这好像是瓦尔登湖里的一句话。为什么会觉得春天的冷更甚于冬天呢？
@@ -54,9 +68,9 @@
   
   <entry>
     <title type="html"><![CDATA[“那些歌”]]></title>
-    <link href="http://anakin.github.com/blog/2012/12/07/music/"/>
+    <link href="http://blog.enjoyido.com/blog/2012/12/07/music/"/>
     <updated>2012-12-07T12:10:00+08:00</updated>
-    <id>http://anakin.github.com/blog/2012/12/07/music</id>
+    <id>http://blog.enjoyido.com/blog/2012/12/07/music</id>
     <content type="html"><![CDATA[<p><img class="left" src="http://fs0.139js.com/file/feed_48f9f403e24f0028d694k9bv5.jpg" width="300" title="cloud #2" >
 10点多的时候从办公室里出来，推开门一阵冷风瞬间就把残留的一点儿温度吓跑了，透心儿的凉。10号线提前3个小时就停运了，还好nice的阿姨开着她的小红滴滴送我到了国贸。<br/>
 本来打算奢侈的打车回去，刚刚转过去就看见站台里停着一辆公交车，赶紧跳进去，居然还有座位，这在以前是不敢想象的事情，大概这几天实在是有点儿冷，冻的大家早早回去歇息了吧。<br/>
@@ -67,9 +81,9 @@
   
   <entry>
     <title type="html"><![CDATA[秋天就这么过去了]]></title>
-    <link href="http://anakin.github.com/blog/2012/10/29/autumn-time/"/>
+    <link href="http://blog.enjoyido.com/blog/2012/10/29/autumn-time/"/>
     <updated>2012-10-29T23:34:00+08:00</updated>
-    <id>http://anakin.github.com/blog/2012/10/29/autumn-time</id>
+    <id>http://blog.enjoyido.com/blog/2012/10/29/autumn-time</id>
     <content type="html"><![CDATA[<p><img class="left" src="http://fs0.139js.com/file/feed_87dcc01400c23385b203gmcm5.jpg" width="300" title="cloud #2" >
 想到这个怎么能不让人痛心疾首。一方面感叹时光如此飞逝并且不留情面的催你老去，一方面惋惜感叹又一段适合到野外去撒野的日子就这样眼睁睁的看着它过去了，我很怀念它。街边的银杏已经变得金黄，阳光从叶片穿过来，映衬的整条街都金灿灿很有钱的样子，光是看着就很满足。<br/>
 既然不能在这个激动人心的季节开着车带着狗到野外去疯狂，就只好在站台上迎着地铁开来的方向昂起头感受风吹过脸庞假装很雄赳赳的样子，心里想像着自己刚抛下了很多七七八八的俗事一个人挎着包很NB的正要去一个遥远的看不见的地方，开始一段充满挑战和危险刺激的旅程。这样就会让自己稍微爽一点儿。当然，接下来的情节必然是被后面的大汉们推进车厢钻到中间的地方默念着面前的阿姨下一站就会下车。。。刺激也是有一点儿的，就是一点儿都不NB。<br/>
@@ -80,9 +94,9 @@
   
   <entry>
     <title type="html"><![CDATA[罗伯特－卡帕]]></title>
-    <link href="http://anakin.github.com/blog/2012/10/29/kapa/"/>
+    <link href="http://blog.enjoyido.com/blog/2012/10/29/kapa/"/>
     <updated>2012-10-29T16:20:00+08:00</updated>
-    <id>http://anakin.github.com/blog/2012/10/29/kapa</id>
+    <id>http://blog.enjoyido.com/blog/2012/10/29/kapa</id>
     <content type="html"><![CDATA[<p><img class="left" src="http://fs0.139js.com/file/feed_40825386cd05d105c037f16m5.jpg" width="300" title="cloud #2" >
 周六晚上去阿姨家吃螃蟹，顺便搜刮了几本书回来，其中一本是罗伯特－卡帕同学的摄影日记，叫做《失焦》，晚上回到家迫不及待的就看了几十页，然后迫不及待的昏睡过去了。<br/>
 周日起的比每个周日都要早一点儿，窝在窗边的沙发里，阳光很好，泡了茶，几乎是一口气把剩下的读完了。和舒坦的躲在沙发里晒着深秋的阳光看书相比，书里面描写的充满了各种刺激和不确定的冒险生活，更令我向往。<br/>
@@ -94,9 +108,9 @@
   
   <entry>
     <title type="html"><![CDATA[皆存于心]]></title>
-    <link href="http://anakin.github.com/blog/2012/09/19/mind/"/>
+    <link href="http://blog.enjoyido.com/blog/2012/09/19/mind/"/>
     <updated>2012-09-19T18:28:00+08:00</updated>
-    <id>http://anakin.github.com/blog/2012/09/19/mind</id>
+    <id>http://blog.enjoyido.com/blog/2012/09/19/mind</id>
     <content type="html"><![CDATA[<p><img class="left" src="http://fs0.139js.com/file/feed_93bbbc57ff20e2319a3e4fi65.jpg" width="300" title="cloud #2" >
 朋友问起，最近好么。想了想，基本都是老样子，你说算是好，还是不好？</p>
 
@@ -114,9 +128,9 @@
   
   <entry>
     <title type="html"><![CDATA[头发长了多难过]]></title>
-    <link href="http://anakin.github.com/blog/2012/09/15/something/"/>
+    <link href="http://blog.enjoyido.com/blog/2012/09/15/something/"/>
     <updated>2012-09-15T00:00:00+08:00</updated>
-    <id>http://anakin.github.com/blog/2012/09/15/something</id>
+    <id>http://blog.enjoyido.com/blog/2012/09/15/something</id>
     <content type="html"><![CDATA[<p><img class="left" src="http://fs0.139js.com/file/feed_225f1b9a8e183fe4c8beo2g65.jpg" width="300" title="cloud #2" >
 头发又长了。他们会在脖子后面戳衬衫的领子，他们还得天天洗，一天不洗就油腻腻的一绺一绺的的卧倒在头上。所以，我很讨厌头发变长，这样很难受。我不奢望头发一旦变成自己喜欢的样子就不会变长，但是我确实曾经幻想过在长度刚好满意的时候，去理发店里拍下照片，然后等头发长了的时候，到了理发店里什么问题都不用回答，只要调出之前的照片，照着剪就好了。这也是我一直都尽量找固定的理发师的原因。我不喜欢每次都回答一堆问题，要怎么剪？有什么想法？哪里长一点儿？要试试新发型么？。。。我没什么想法，也不喜欢尝试新的发型，觉得没有这个必要。  <br/>
 找相熟的理发师就简单的多，什么问题也不用回答，都和以前一样就好了。也不用担心有改变发型的风险。甚至可以一坐下就开始睡觉。这样轻松的多。说起来也是专属理发师，很有面子。<br/>
@@ -127,9 +141,9 @@
   
   <entry>
     <title type="html"><![CDATA[吴念真的《这些人，那些事》]]></title>
-    <link href="http://anakin.github.com/blog/2012/09/03/wunianzhen/"/>
+    <link href="http://blog.enjoyido.com/blog/2012/09/03/wunianzhen/"/>
     <updated>2012-09-03T15:29:00+08:00</updated>
-    <id>http://anakin.github.com/blog/2012/09/03/wunianzhen</id>
+    <id>http://blog.enjoyido.com/blog/2012/09/03/wunianzhen</id>
     <content type="html"><![CDATA[<p><img class="left" src="http://fs0.139js.com/file/feed_556d494cdc282b33fca5ixm65.jpg" width="300" title="wunianzhen #2" >
 如果是一本好书，一拿在手上马上就能感觉出来。我想这本《这些人，那些事》就是这样的好书。从翻开第一页开始，就一直很纠结，一方面想慢慢的细细的读，一方面又忍不住一直读下去。貌似很久没有这样的感觉了。</p>
 
@@ -147,9 +161,9 @@
   
   <entry>
     <title type="html"><![CDATA[秋天]]></title>
-    <link href="http://anakin.github.com/blog/2012/09/02/autumn/"/>
+    <link href="http://blog.enjoyido.com/blog/2012/09/02/autumn/"/>
     <updated>2012-09-02T23:23:00+08:00</updated>
-    <id>http://anakin.github.com/blog/2012/09/02/autumn</id>
+    <id>http://blog.enjoyido.com/blog/2012/09/02/autumn</id>
     <content type="html"><![CDATA[<p><img class="left" src="http://fs0.139js.com/file/feed_a405f657f73df98163e9twc65.jpg" width="300" title="flower #2" >
 前几天的某个晚上是鬼节，月亮正圆，一路上看到有很多人在烧纸，我在想，每一堆火的背后，都有一个伤心感人的故事和一个或几个被思念着的人吧。</p>
 
@@ -167,9 +181,9 @@
   
   <entry>
     <title type="html"><![CDATA[蜗牛]]></title>
-    <link href="http://anakin.github.com/blog/2012/08/29/snail/"/>
+    <link href="http://blog.enjoyido.com/blog/2012/08/29/snail/"/>
     <updated>2012-08-29T14:38:00+08:00</updated>
-    <id>http://anakin.github.com/blog/2012/08/29/snail</id>
+    <id>http://blog.enjoyido.com/blog/2012/08/29/snail</id>
     <content type="html"><![CDATA[<p><img class="left" src="http://fs0.139js.com/file/feed_dcf33b29e3c88c699d5eoo855.jpg" width="300" title="snail #2" ><br/>
 之前在小区的树上面看到过，一个一个的壳挂在树上，过去摘，好像都粘在树上，掰下来，摇晃几下，也不见有什么动静，我一直以为是他们逃掉了，只留下了壳在树上。其实我一直也不知道蜗牛是像蛇之类的会定期蜕壳，还是一辈子都背着自己的壳，慢慢长大。</p>
 
@@ -186,13 +200,13 @@
   
   <entry>
     <title type="html"><![CDATA[部署一个octopress+git的blog]]></title>
-    <link href="http://anakin.github.com/blog/2012/08/28/how-to-use-octopress/"/>
+    <link href="http://blog.enjoyido.com/blog/2012/08/28/how-to-use-octopress/"/>
     <updated>2012-08-28T18:07:00+08:00</updated>
-    <id>http://anakin.github.com/blog/2012/08/28/how-to-use-octopress</id>
+    <id>http://blog.enjoyido.com/blog/2012/08/28/how-to-use-octopress</id>
     <content type="html"><![CDATA[<p><a href="http://octopress.org">Octopress</a>是一个发布静态blog的神器，配合Git pages使用，简直就是天衣无缝，再加上天然支持Markdown编写格式，就更如虎添翼。<br/>
 你目前看到的这个blog，就是用<a href="http://octopress.org">Octopress</a>+<a href="http://pages.github.com/">Git pages</a> +<a href="http://disqus.com/">disqus</a>实现的，记录一下大概的步骤：<br/>
 <strong>1. 建立github repo</strong><br/>
- 在<a href="http://github.com">github</a>上建立一个名字为username.github.com的repo，在项目的Admin菜单中，点击Automatic Page Generator按钮进行配置和发布，稍微等一会儿，就可以访问http://username.github.com这个地址，看到你的blog了<br/>
+ 在<a href="http://github.com">github</a>上建立一个名字为username.github.com的repo，在项目的Admin菜单中，点击Automatic Page Generator按钮进行配置和发布，稍微等一会儿，就可以访问<a href="http://username.github.com%E8%BF%99%E4%B8%AA%E5%9C%B0%E5%9D%80%EF%BC%8C%E7%9C%8B%E5%88%B0%E4%BD%A0%E7%9A%84blog%E4%BA%86  ">http://username.github.com%E8%BF%99%E4%B8%AA%E5%9C%B0%E5%9D%80%EF%BC%8C%E7%9C%8B%E5%88%B0%E4%BD%A0%E7%9A%84blog%E4%BA%86  </a>
  <strong>2. 配置Octopress环境</strong><br/>
  这个部分在<a href="http://octopress.org">Octopress</a>上有比较详细的介绍，我目前的操作系统是Mac OSX 10.8.1，安装了最新版本的ruby 1.3.9p194，基本的步骤如下，首先clone到本地</p>
 
@@ -247,9 +261,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://anakin.github.com/blog/2012/08/27/hello-world/"/>
+    <link href="http://blog.enjoyido.com/blog/2012/08/27/hello-world/"/>
     <updated>2012-08-27T16:35:00+08:00</updated>
-    <id>http://anakin.github.com/blog/2012/08/27/hello-world</id>
+    <id>http://blog.enjoyido.com/blog/2012/08/27/hello-world</id>
     <content type="html"><![CDATA[<p>生活在一个云的时代的好处，就是你坐在家里抱着一台笔记本，连上网线，就可以做几乎所有的事儿了。<br/>
 可能生活在天朝的我们这种感觉还不是那么的强烈，想象一下那些生活在天朝之外的同学们是如何生活和工作的，只要你有一个idea，找几个志同道合的基友，购买一个AWS的服务，使用google的各种接口就可以开始实现你的想法了，每个人都做自己最擅长的事情，这本来就是社会应该进化成的样子，不是么。<br/>
 如今世界上有几个可以称之为伟大的公司，google，Apple，Amazon，当然还有现在你正在访问的github。这样牛逼闪闪的公司除了伟大，真的找不到其他合适的词来形容。<br/>
@@ -259,9 +273,9 @@
   
   <entry>
     <title type="html"><![CDATA[安静好时光]]></title>
-    <link href="http://anakin.github.com/blogs/504"/>
+    <link href="http://blog.enjoyido.com/blogs/504"/>
     <updated>2012-07-16T00:00:00+08:00</updated>
-    <id>http://anakin.github.com/blogs/504</id>
+    <id>http://blog.enjoyido.com/blogs/504</id>
     <content type="html"><![CDATA[<p><img class="left" src="http://fs0.139js.com/file/feed_a817f8204c58b6a2e948l7555.jpg" width="300" title="pic #2" ></p>
 <p>下雨天不上班，一定要喝茶听音乐发呆。桌上点个小蜡烛，烛光明灭飘忽，光脚坐在窗边的地上，狗就伸着舌头睡在脚边上，窗外沙沙的雨声和着屋内悠悠的音乐声，飘飘然如在云端。</p>
 <p>你可能说，想的美！我想说，为什么不呢？现实已然如此残酷，我想还不能想的美点儿么？</p>
@@ -273,9 +287,9 @@
   
   <entry>
     <title type="html"><![CDATA[城市]]></title>
-    <link href="http://anakin.github.com/blogs/501"/>
+    <link href="http://blog.enjoyido.com/blogs/501"/>
     <updated>2012-07-14T00:00:00+08:00</updated>
-    <id>http://anakin.github.com/blogs/501</id>
+    <id>http://blog.enjoyido.com/blogs/501</id>
     <content type="html"><![CDATA[<p><img class="left" src="http://fs0.139js.com/file/feed_99e6d36853002109c73ev6x55.jpg" width="300" title="beijing #2" ></p>
 <p>北京是一个人很多的大城市。</p>
 <p>晚上在一个地铁站换乘，躲在等车队伍的后面，车刚一进站，人群已经迅速聚集到了门口，车门一开，被压缩在车里的人们夹杂着一股热气一瞬间扑面而来，同时挤在门口的人们又迅速的补充进去，把刚刚的空间又填满，我忽然心生恐惧，犹豫了一下，终于没有上车。列车在面前呼啸而去的时候，刚才生龙活虎的人们好像什么都没发生过一样，冷静的挂在车厢里的各个角落，奔向下一个战场。</p>
@@ -286,9 +300,9 @@
   
   <entry>
     <title type="html"><![CDATA[铜钱草的一生]]></title>
-    <link href="http://anakin.github.com/blogs/492"/>
+    <link href="http://blog.enjoyido.com/blogs/492"/>
     <updated>2012-07-08T00:00:00+08:00</updated>
-    <id>http://anakin.github.com/blogs/492</id>
+    <id>http://blog.enjoyido.com/blogs/492</id>
     <content type="html"><![CDATA[<p><img class="left" src="http://fs0.139js.com/file/feed_0922e8d856f44dbc43c5dc2x5.jpg" width="300" title="grass #2" ></p>
 <p>大概是由于每天扭脖子的缘故，它们不像一开始那么笔直了，稍微有些弯曲，不过看上去依然很整齐，因为大家弯曲的角度和方向都很一致。我曾经捉摸，如果时间和角度控制的好，我应该可以把它们培养成一盆弹簧的样子。花盆里长满了绿色的弹簧～～想想都很壮观啊。</p>
 <p>听人说它们是喜水的植物，光用水泡着都行，所以我每天都会勤勉的没事儿就过去浇几次水。终于有一天，我发现水流失的太快了，浇完了马上就从盆底的孔里流出来，盆里没剩下多少，这也太浪费了吧，于是突发奇想，找到一个咖啡筒，铁的，底下没有孔的。躲到卫生间里，费了半天的劲儿才把它们从花盆里挖出来，硬是塞到了咖啡筒里。这个时候它们已经朝着不同的方向了。不过这下好了，浇了水一点儿都不浪费，老老实实的留在筒里。开始还好，没几天就发现头顶上的小伞开始变黄了，脖子也越来越没劲儿，慢慢耷拉下来了，有一些干脆呈枯萎状，准备收拾收拾去世了，抓住一棵匍匐在盆里的一拎，原来根儿已经烂了。</p>
@@ -300,9 +314,9 @@
   
   <entry>
     <title type="html"><![CDATA[雨夜]]></title>
-    <link href="http://anakin.github.com/blogs/483"/>
+    <link href="http://blog.enjoyido.com/blogs/483"/>
     <updated>2012-06-29T00:00:00+08:00</updated>
-    <id>http://anakin.github.com/blogs/483</id>
+    <id>http://blog.enjoyido.com/blogs/483</id>
     <content type="html"><![CDATA[<p><img class="left" src="http://fs0.139js.com/file/feed_013aff1ade74c90d9973jiex5.jpg" width="300" title="nothing #2" ><br />
 球赛还有一会儿才会开始，电视里七七八八的不知道在演些什么。把声音关掉，屏幕上就只剩下一张张诡异的张合着的嘴。躺在靠窗的沙发上，外面沙沙的雨声让夜晚显得尤其的静好，正如这无言的时光，缓缓的慢悠悠的恣意流淌。</p>
 <p>没有闪电也没有雷声，雨就这样不急不躁断断续续的洒了一整天，不紧不慢的足以减缓所有驱驰的脚步，足以熄灭所有热烈的执念和热切的盼望。望着窗外漆黑的夜，好像对视着自己的魂灵，它没有闪躲也没有升腾幻化，只是静静的向你凝望。雨中矗立着的路灯们顶着一朵朵幽暗昏黄的光，偶尔有汽车从他们脚下经过，带着一路溅起的雾气消失在远方。</p>
@@ -311,9 +325,9 @@
   
   <entry>
     <title type="html"><![CDATA[像我们这样的人]]></title>
-    <link href="http://anakin.github.com/blogs/479"/>
+    <link href="http://blog.enjoyido.com/blogs/479"/>
     <updated>2012-06-25T00:00:00+08:00</updated>
-    <id>http://anakin.github.com/blogs/479</id>
+    <id>http://blog.enjoyido.com/blogs/479</id>
     <content type="html"><![CDATA[<p><img src="http://fs0.139js.com/file/feed_0b82c31a1d7f0dd33ef5r5dx5.jpg" alt="玉米" /><br />
 像我们这样的人敏感。一点儿小事儿就闹心一天，一点儿小事儿就开心一天。开心和不开心都很简单。表面上什么都不在乎，实际上很在意别人的感受，不喜欢勉强谁，也不喜欢被谁勉强，一点儿都不行。</p>
 <p>像我们这样的人挑剔。不容易看上什么东西。看上了就喜欢的不得了。可是，我们也说不清楚为什么喜欢和为什么不喜欢。</p>
@@ -326,9 +340,9 @@
   
   <entry>
     <title type="html"><![CDATA[你有多久没见过彩虹]]></title>
-    <link href="http://anakin.github.com/blogs/474"/>
+    <link href="http://blog.enjoyido.com/blogs/474"/>
     <updated>2012-06-17T00:00:00+08:00</updated>
-    <id>http://anakin.github.com/blogs/474</id>
+    <id>http://blog.enjoyido.com/blogs/474</id>
     <content type="html"><![CDATA[<p><img src="http://fs0.139js.com/file/feed_c3161525267fdc1c4cbe93gx5.jpg" alt="rainbow" /></p>
 <p>好像有一百年没见过彩虹了吧。<br />
 最近北京的天气好到让人咬牙切齿，各种蓝天白云，看上去特别的不真实，终于连彩虹都出来了，不是在开玩笑吧。。。这让我们这些习惯了灰蒙蒙雾气笼罩的土鳖们简直欣喜若狂，对着窗户外面忍不住想发一会儿呆，甚至想一头扎进这一大片脆蓝里，溺死在里面算了。<br />
@@ -338,9 +352,9 @@
   
   <entry>
     <title type="html"><![CDATA[生活在某处]]></title>
-    <link href="http://anakin.github.com/blogs/471"/>
+    <link href="http://blog.enjoyido.com/blogs/471"/>
     <updated>2012-02-25T00:00:00+08:00</updated>
-    <id>http://anakin.github.com/blogs/471</id>
+    <id>http://blog.enjoyido.com/blogs/471</id>
     <content type="html"><![CDATA[<p><img src="http://fs0.139js.com/file/Gy1L9.jpg" alt="fish" /></p>
 <p>同一个时间你只能生活在唯一的一个地方,这是一个我们都只能面对的有些悲哀的事实,谁都学不会分身术.</p>
 <p>所以生活可能是这样的.</p>
@@ -351,21 +365,6 @@
 <p>所以,你看,谁也不用抱怨.</p>
 <p>生活多公平啊.</p>
 <p>而且美好.</p>]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[时间这回事]]></title>
-    <link href="http://anakin.github.com/blogs/466"/>
-    <updated>2012-02-24T00:00:00+08:00</updated>
-    <id>http://anakin.github.com/blogs/466</id>
-    <content type="html"><![CDATA[<p><img src="http://fs0.139js.com/file/iodL9.jpg" alt="view" /></p>
-<p>也不知道是从什么时候开始,总觉得时间不够用.工作的时间不够,玩儿的时间不够,睡觉的时间也不够.那些完全没有意识到how time flies,从而没心没肺的大把大把的浪费时间的光阴好像只是个梦,有没有真实的发生过也有必要表示一下怀疑.如今已经不能完全体会彼时彼刻是何等心境.<br />
-对时间飞逝的恐惧造成了一系列的恶性循环,晚上舍不得睡,早上死活也起不来.它们互为因果,彼此相生.起的晚,白天的时间自然短暂,洗脸刷牙爬到公司已然日上20多竿,it&#8217;s time for lunch.饭毕回来东搞西搞还没怎么搞定天就黑了.那些早起的鸟儿们从容的在白天把时间玩弄于股掌之间,我只好等到晚上再揍它一顿,然后慢慢的消磨它,享用它,非尽兴不能入眠,于是第二天起来,又是一个好大的太阳,如此往复,不断的践行着错峰上下班不给首都添堵的美德.<br />
-我不想讨论如何把时间过得有意义,那是最没有意义的事情.在时间稳健而稳定的从你的眼皮底下溜走的时候,你选择听一首歌还是睡一觉还是发一会儿呆或者看一本书并没有什么差别.没有哪个相比起来更加富有意义.因此也完全不必因为用来发呆而不是看书而懊悔.要做的,只是用力的愉悦的过好每一秒钟,因为这一秒钟再也不会回来了.<br />
-过去的这个冬天基本上没怎么恶狠狠的冷过,雪也没有正经的下过一场,甚至不配叫一个冬天.反而是到了它该退场的时候死赖着拖拖拉拉的不肯走,非要苟延残喘的展现一下自己没剩多少的余威,经常以嗖嗖的刮着的小风提醒我们它似乎还可以再抢救一下,并没有彻底死干净.以至于到现在害羞的春姑娘还没好意思光临,这也直接导致了我一直不能脱掉我的棉裤.而且我还有一个更加不好的预感,就是春姑娘的脚步也会因此变得匆忙而且凌乱.说不定等我们意识到正在享受春风拂面杨柳依依的时候,夏天已经在通县的某个地方觊觎着准备随时杀奔京城了.<br />
-不小心翻到去年迎春花和玉兰花开放的照片,彼时春风和煦,阳光明亮温暖而不刺眼也不炙热,这让此时窗外死不死活不活灰蒙蒙惨白清冷的日光相形见绌,情何以堪?<br />
-那些和煦和温暖真的已经过去了有一年之久?<br />
-How time flies.</p>]]></content>
   </entry>
   
 </feed>
